@@ -6,7 +6,13 @@ import desk from './body-img/work desk.png';
 import about from './body-img/about.png';
 import '../styles/fonts.css';
 import '../styles/font2.css';
+import { useNavigate } from 'react-router-dom';
 function Body() {
+
+    const navigate = useNavigate();
+    const goToChairs=()=>{
+        navigate("/Chairs");
+    };
     return (
       <>
         <div className="top-container">
@@ -19,7 +25,7 @@ function Body() {
                         <div className="card-text">
                             <h2>Chairs</h2>
                             <p>99+ Options, Starting from ₹2999-</p>
-                            <button>View More</button>
+                            <button onClick={goToChairs}>View More</button>
                         </div>
                     </div>
                     <div className="card">
