@@ -1,7 +1,12 @@
 import c1 from './chair_images/C-1.jpg'
 import './Chairs.css'
 import '../styles/fonts.css'
+import { useNavigate } from 'react-router-dom';
 function Chairs(){
+    const navigate = useNavigate();
+    const goToChair1=()=>{
+        navigate("/Chairs/Chair1");
+    };
     return(
         <>
             <div className="product-grid">
@@ -10,7 +15,7 @@ function Chairs(){
                     <h3>Madonna Lounge Chair In Black Leatherette</h3>
                     <p>By Furncasa</p>
                     <p>₹19999</p>
-                    <button>VIEW PRODUCT</button>
+                    <button onClick={goToChair1}>VIEW PRODUCT</button>
                     <button>WISHLIST</button>
                 </div>
                 <div className="product">
