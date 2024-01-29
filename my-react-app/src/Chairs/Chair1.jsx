@@ -25,7 +25,7 @@ function Chair1() {
     <br />
     <div className="product-container">
       <div className="product-image">
-        <img src={images[selectedImage]} alt="Furniture" />
+        <div className="big-image"><img src={images[selectedImage]} alt="Furniture" /></div>
         <div className="image-gallery">
           {images.map((image, index) => (
             <img
