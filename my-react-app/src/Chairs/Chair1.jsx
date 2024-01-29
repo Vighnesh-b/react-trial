@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Chair1.css'
+import IMAGES from './cahimage';
+
 function Chair1() {
   const unitPrice = 499.99;
 
@@ -7,9 +9,9 @@ function Chair1() {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    'https://via.placeholder.com/400',
-    'https://via.placeholder.com/400/0000FF/808080?text=Image+2',
-    'https://via.placeholder.com/400/008000/FFFFFF?text=Image+3',
+    IMAGES.c1_1,
+    IMAGES.c2_1,
+    IMAGES.c3_1
   ];
 
   function handleQuantityChange(e) {

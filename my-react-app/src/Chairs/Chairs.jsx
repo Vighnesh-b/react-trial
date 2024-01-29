@@ -1,6 +1,9 @@
 import c1 from './chair_images/C-1.jpg'
 import './Chairs.css'
 import '../styles/fonts.css'
+
+import IMAGES from './cahimage';
+
 import { useNavigate } from 'react-router-dom';
 function Chairs(){
     const navigate = useNavigate();
@@ -11,7 +14,7 @@ function Chairs(){
         <>
             <div className="product-grid">
                 <div className="product">
-                    <img src={c1} alt="Product 1" />
+                    <img src={IMAGES.c1_1} alt="Product 1" />
                     <h3>Madonna Lounge Chair In Black Leatherette</h3>
                     <p>By Furncasa</p>
                     <p>₹19999</p>
