@@ -16,7 +16,7 @@ function Header() {
         </div>
         <SearchBar/>
         <div className="icons">
-          <a href=""><IoPersonOutline size="1.5em"/></a>
+        <Link to="/Login"><IoPersonOutline size="1.5em"/></Link>
           <a href=""><FaRegHeart size="1.5em"/></a>
           <a href=""><LuShoppingCart size="1.5em"/></a>
         </div>
