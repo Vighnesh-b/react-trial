@@ -19,6 +19,8 @@ function Chair1() {
   const totalPrice = (quantity * unitPrice).toFixed(2);
 
   return (<>
+    <br />
+    <br />
     <div className="product-container">
       <div className="product-image">
         <img src={images[selectedImage]} alt="Furniture" />
@@ -56,10 +58,16 @@ function Chair1() {
         <button className="add-to-cart">Add to Cart</button>
       </div>
     </div>
-    <p className="description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          tincidunt, lectus eget tristique volutpat, arcu orci ultrices ante.
-        </p>
+    <div className="description">
+    <h2>Product details</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis praesentium quam facere consequuntur adipisci, pariatur culpa placeat eum sequi expedita! Quibusdam, fuga quidem, assumenda eaque repellat molestiae est, saepe voluptas necessitatibus illo cupiditate ullam distinctio in? Nulla expedita laudantium non accusantium dolorum velit, mollitia fuga sit ullam iste obcaecati, autem temporibus ipsa, et dolore fugiat?</p>
+    <h2>Measurements</h2>
+    <p>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, deleniti!</li>
+      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, recusandae?</li>
+    </p>
+    </div>
+    
     </>
     
   );
