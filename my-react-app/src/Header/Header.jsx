@@ -31,10 +31,10 @@ function Header() {
           <a href="">Sofas</a>
         </li>
         <li>
-          <a href="">Bedroom</a>
+          <a href="">Bed</a>
         </li>
         <li>
-          <a href="">Study</a>
+          <a href="">Wardrobe</a>
         </li>
         <li>
           <a href="">Lamps & Lighting</a>

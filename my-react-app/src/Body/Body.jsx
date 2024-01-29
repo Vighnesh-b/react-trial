@@ -2,7 +2,17 @@
 import './Body.css';
 import chair from './body-img/ch.png';
 import sofa from './body-img/sf.png';
+
 import desk from './body-img/work desk.png';
+import c2_1 from '../Chairs/chair_images/c2.1.avif';
+import c3_1 from '../images/sofa_images/sofas.avif';
+import c4_1 from '../images/Dining_set/dining.avif';
+import c5_1 from '../images/bedroom_images/bed.avif';
+import c6_1 from '../images/lamps_and_lighting/lamps.avif';
+import c7_1 from '../images/wardrobe_images/ward.avif';
+import c8_1 from '../Chairs/chair_images/c3.1.avif';
+import c9_1 from '../Chairs/chair_images/c4.1.avif';
+
 import about from './body-img/about.png';
 import '../styles/fonts.css';
 import '../styles/font2.css';
@@ -50,68 +60,68 @@ function Body() {
             <div className="bottom-container">
                 <div className="row">
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c2_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Noah Velvet Arm Chair</h4>
+                        <p className='text-center'>₹9000</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c3_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Noah Velvet 4 Seater Sofa</h4>
+                        <p className='text-center'>₹12000</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c4_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Gem solid Wood Dining Chair</h4>
+                        <p className='text-center'>₹13000</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c5_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Yamako Queen Size Bed</h4>
+                        <p className='text-center'>₹4999</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 </div>
                 <div className="row">
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c6_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Canvas White Cotton Lamp</h4>
+                        <p className='text-center'>₹8999</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c7_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Kosmo Lily 2 Door Wardrobe</h4>
+                        <p className='text-center'>₹14999</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c8_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Rams Velvet Arm Chair</h4>
+                        <p className='text-center'>₹17999</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
-                    <img src={desk} alt="" />
+                    <img src={c9_1} alt="" />
                     <div className="card-body">
-                        <h4>Modern Plastic Chair</h4>
-                        <p className='text-center'>₹5999</p>
+                        <h4>Milton Sheesham Cotton Chair</h4>
+                        <p className='text-center'>₹18999</p>
                         <button>Shop Now</button>                                                
                     </div>                                        
                 </div>
