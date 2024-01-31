@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './Chair1.css'
 import IMAGES from './cahimage';
 
-function Chair1() {
-  const unitPrice = 13000;
+function Chair2() {
+  const unitPrice = 18999;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    IMAGES.c1_1,
-    IMAGES.c1_2,
-    IMAGES.c1_3
+    IMAGES.c2_1,
+    IMAGES.c2_2,
+    IMAGES.c2_3
   ];
 
   function handleQuantityChange(e) {
@@ -39,7 +39,7 @@ function Chair1() {
         </div>
       </div>
       <div className="product-details">
-        <h2>Cosmo Comfort Armchair</h2>
+        <h2>Zenith Lounge Furnish Chair</h2>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -62,36 +62,26 @@ function Chair1() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>Clean lines and supportive comfort, regardless if you’re reading, socialising with friends or just relaxing for a moment.
+    <p>This wing chair and footstool are the perfect combination when you want to stretch out, rest your feet and sit extra comfortably and relaxed.
 
-Each armchair has a unique expression since the wooden frame is first stained in a dark-brown tone and then covered with clear lacquer that makes the wood’s natural grains visible.
+You can easily move the footstool around to wherever you need it and use it as an extra seat, for example when you have friends visiting.
 
-High-resilience foam in the seat and back makes the armchair regain its shape when you stand up, and it’s complemented with zigzag springs in the seat and supportive fabric in the back for a firm comfort.
+The wing chair has a high back which provides extra support for your neck, so that you can lean your head back when resting.
 
-You will sit stable and steady for years to come since the frame is made of hardwearing solid wood. You also enjoy a relaxed sitting position thanks to the angled backrest.
-
-The tall legs in solid wood make it easy to vacuum or reach things hiding under the armchair to avoid clutter.
-
-The elegant, fixed cover has a perfect fit that will last over time. You can choose from different covers and find one that suits you and your home.</p>
+Round armrests, soft lines and an inviting upholstery give this wing chair a soft embracing feel.</p>
     <h2>Measurements</h2>
     <p>
-      <li>Height backrest: 46 cm (18 1/8 ")</li>
+    <li>Width: 74 cm (29 ¼ ")</li>
 
-<li>Width: 64 cm (25 1/4 ")</li>
+    <li>Height: 47 cm (18 ¼ ")</li>
 
-<li>Depth: 78 cm (30 3/4 ")</li>
+    <li>Length: 105 cm (41 ¼ ")</li>
 
-<li>Height: 76 cm (29 7/8 ")</li>
+    <li>Weight: 29.60 kg (65 lb 4 oz)</li>
 
-<li>Free height under furniture: 22 cm (8 5/8 ")</li>
+    <li>Package(s): 1</li>
 
-<li>Armrest height: 63 cm (24 3/4 ")</li>
 
-<li>Seat width: 56 cm (22 ")</li>
-
-<li>Seat depth: 50 cm (19 5/8 ")</li>
-
-<li>Seat height: 45 cm (17 3/4 ")</li>
       
     </p>
     </div>
@@ -100,4 +90,4 @@ The elegant, fixed cover has a perfect fit that will last over time. You can cho
     
   );
 }
-export default Chair1;
+export default Chair2;

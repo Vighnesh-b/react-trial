@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './Chair1.css'
 import IMAGES from './cahimage';
 
-function Chair1() {
-  const unitPrice = 13000;
+function Chair6() {
+  const unitPrice = 17999;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    IMAGES.c1_1,
-    IMAGES.c1_2,
-    IMAGES.c1_3
+    IMAGES.c6_1,
+    IMAGES.c6_2,
+    IMAGES.c6_3
   ];
 
   function handleQuantityChange(e) {
@@ -39,7 +39,7 @@ function Chair1() {
         </div>
       </div>
       <div className="product-details">
-        <h2>Cosmo Comfort Armchair</h2>
+        <h2>Harmony Lounge Chair</h2>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -62,36 +62,28 @@ function Chair1() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>Clean lines and supportive comfort, regardless if you’re reading, socialising with friends or just relaxing for a moment.
+    <p>Classic design with soft, rounded shapes and generously sized armrests makes VISKAFORS armchair a statement piece in any living room.
 
-Each armchair has a unique expression since the wooden frame is first stained in a dark-brown tone and then covered with clear lacquer that makes the wood’s natural grains visible.
+The deep seat with pocket springs is really soft and creates an inviting, embracing feel when you sit on the armchair.
 
-High-resilience foam in the seat and back makes the armchair regain its shape when you stand up, and it’s complemented with zigzag springs in the seat and supportive fabric in the back for a firm comfort.
+Skillful craftsmanship and a perfect fit means that the armchair will always shows off its best side.
 
-You will sit stable and steady for years to come since the frame is made of hardwearing solid wood. You also enjoy a relaxed sitting position thanks to the angled backrest.
-
-The tall legs in solid wood make it easy to vacuum or reach things hiding under the armchair to avoid clutter.
-
-The elegant, fixed cover has a perfect fit that will last over time. You can choose from different covers and find one that suits you and your home.</p>
+The cover in cotton and polyester fabric is dyed in different tones, which gives it a nice effect. The strong and hardwearing woven quality gives the fabric a clear texture.</p>
     <h2>Measurements</h2>
     <p>
-      <li>Height backrest: 46 cm (18 1/8 ")</li>
+    <li>Depth: 86 cm (33 7/8 ")</li>
 
-<li>Width: 64 cm (25 1/4 ")</li>
+    <li>Height: 99 cm (39 ")</li>
 
-<li>Depth: 78 cm (30 3/4 ")</li>
+    <li>Seat depth: 54 cm (21 1/4 ")</li>
 
-<li>Height: 76 cm (29 7/8 ")</li>
+    <li>Seat height: 44 cm (17 3/8 ")</li>
 
-<li>Free height under furniture: 22 cm (8 5/8 ")</li>
+    <li>Seat width: 54 cm (21 1/4 ")</li>
 
-<li>Armrest height: 63 cm (24 3/4 ")</li>
+    <li>Width: 82 cm (32 1/4 ")</li>
 
-<li>Seat width: 56 cm (22 ")</li>
 
-<li>Seat depth: 50 cm (19 5/8 ")</li>
-
-<li>Seat height: 45 cm (17 3/4 ")</li>
       
     </p>
     </div>
@@ -100,4 +92,4 @@ The elegant, fixed cover has a perfect fit that will last over time. You can cho
     
   );
 }
-export default Chair1;
+export default Chair6;

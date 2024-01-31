@@ -9,6 +9,21 @@ function Chairs(){
     const goToChair1=()=>{
         navigate("/Chairs/Chair1");
     };
+    const goToChair2=()=>{
+        navigate("/Chairs/chair2");
+    };
+    const goToChair3=()=>{
+        navigate("/Chairs/chair3");
+    };
+    const goToChair4=()=>{
+        navigate("/Chairs/chair4");
+    };
+    const goToChair5=()=>{
+        navigate("/Chairs/chair5");
+    };
+    const goToChair6=()=>{
+        navigate("/Chairs/chair6");
+    };
     return(
         <>
             <div className="product-grid">
@@ -25,7 +40,7 @@ function Chairs(){
                     <h3>Zenith Lounge Furnish Chair</h3>
                     <p>By  Zenith Furnishings</p>
                     <p>₹18999</p>
-                    <button>VIEW PRODUCT</button>
+                    <button onClick={goToChair2}>VIEW PRODUCT</button>
                     <button>WISHLIST</button>
                 </div>  
                 <div className="product">
@@ -33,7 +48,7 @@ function Chairs(){
                     <h3>Tranquil Retreat Armchair</h3>
                     <p>By Tranquil Living</p>
                     <p>₹16999</p>
-                    <button>VIEW PRODUCT</button>
+                    <button onClick={goToChair3}>VIEW PRODUCT</button>
                     <button>WISHLIST</button>
                 </div>  
                 <div className="product">
@@ -42,14 +57,14 @@ function Chairs(){
                     <p>By Nexus Home</p>
                     <p>₹14999</p>
                     <button>VIEW PRODUCT</button>
-                    <button>WISHLIST</button>
+                    <button onClick={goToChair4}>WISHLIST</button>
                 </div>  
                 <div className="product">
                     <img src={IMAGES.c5_1} alt="Product 5" />
                     <h3>Blissful Oasis Armchair</h3>
                     <p>By Bliss Furnishings</p>
                     <p>₹15999</p>
-                    <button>VIEW PRODUCT</button>
+                    <button onClick={goToChair5}>VIEW PRODUCT</button>
                     <button>WISHLIST</button>
                 </div>  
                 <div className="product">
@@ -58,7 +73,7 @@ function Chairs(){
                     <p>By Harmony Home</p>
                     <p>₹17999</p>
                     <button>VIEW PRODUCT</button>
-                    <button>WISHLIST</button>
+                    <button onClick={goToChair6}>WISHLIST</button>
                 </div>     
             </div>        
         </>
