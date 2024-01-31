@@ -56,8 +56,8 @@ function Chairs(){
                     <h3>Nexus Cozy Corner Chair</h3>
                     <p>By Nexus Home</p>
                     <p>₹14999</p>
-                    <button>VIEW PRODUCT</button>
-                    <button onClick={goToChair4}>WISHLIST</button>
+                    <button onClick={goToChair4}>VIEW PRODUCT</button>
+                    <button >WISHLIST</button>
                 </div>  
                 <div className="product">
                     <img src={IMAGES.c5_1} alt="Product 5" />
@@ -72,8 +72,8 @@ function Chairs(){
                     <h3>Harmony Lounge Chair</h3>
                     <p>By Harmony Home</p>
                     <p>₹17999</p>
-                    <button>VIEW PRODUCT</button>
-                    <button onClick={goToChair6}>WISHLIST</button>
+                    <button onClick={goToChair6}>VIEW PRODUCT</button>
+                    <button >WISHLIST</button>
                 </div>     
             </div>        
         </>
