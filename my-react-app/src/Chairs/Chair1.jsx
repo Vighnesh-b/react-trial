@@ -39,7 +39,7 @@ function Chair1() {
         </div>
       </div>
       <div className="product-details">
-        <h2>Modern Sofa</h2>
+        <h2>Cosmo Comfort Armchair</h2>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
