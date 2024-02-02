@@ -23,6 +23,9 @@ function Body() {
     const goToChairs=()=>{
         navigate("/Chairs");
     };
+    const goToSofas=()=>{
+        navigate("/Sofas");
+    };
     return (
       <>
         <div className="top-container">
@@ -43,7 +46,7 @@ function Body() {
                         <div className="card-text">
                             <h2>Sofas</h2>
                             <p>50+ Options, Starting from ₹9999-</p>
-                            <button>View More</button>
+                            <button onClick={goToSofas}>View More</button>
                         </div>
                     </div>
                     <div className="card">
