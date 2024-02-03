@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Sofa1.css';
 import IMAGES from './cah2image';
 
-function Chair3() {
+function sofa1() {
   const unitPrice = 16999;
 
   const [quantity, setQuantity] = useState(1);
@@ -92,4 +92,4 @@ You can complete your wing chair with OSKARSHAMN footstool to sit even more comf
     
   );
 }
-export default Chair3;
+export default sofa1;
