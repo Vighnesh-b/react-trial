@@ -16,6 +16,11 @@ import Chair4 from './Chairs/chair4';
 import Chair5 from './Chairs/chair5';
 import Chair6 from './Chairs/chair6';
 import Sofa1 from './Sofas/sofa1';
+import Sofa2 from './Sofas/sofa2';
+import Sofa3 from './Sofas/sofa3';
+import Sofa4 from './Sofas/sofa4';
+import Sofa5 from './Sofas/sofa5';
+import Sofa6 from './Sofas/sofa6';
 import Login from './LoginPage/login';
 import SignUp from './LoginPage/signup';
 
@@ -34,6 +39,11 @@ function App() {
           <Route path='/Chairs/chair5' element={<Chair5/>}/>
           <Route path='/Chairs/chair6' element={<Chair6/>}/>
           <Route path='/Sofas/sofa1' element={<Sofa1/>}/>
+          <Route path='/Sofas/sofa2' element={<Sofa2/>}/>
+          <Route path='/Sofas/sofa3' element={<Sofa3/>}/>
+          <Route path='/Sofas/sofa4' element={<Sofa4/>}/>
+          <Route path='/Sofas/sofa5' element={<Sofa5/>}/>
+          <Route path='/Sofas/sofa6' element={<Sofa6/>}/>
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />

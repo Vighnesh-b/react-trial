@@ -20,7 +20,8 @@ function sofa1() {
 
   const totalPrice = (quantity * unitPrice).toFixed(2);
 
-  return (<>
+  return (
+  <>
     <br />
     <br />
     <div className="product-container">
@@ -39,7 +40,7 @@ function sofa1() {
         </div>
       </div>
       <div className="product-details">
-        <h2>Tranquil Retreat Armchair</h2>
+        <h2>Harmony Sofa</h2>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
