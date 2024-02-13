@@ -40,7 +40,7 @@ function sofa5() {
       </div>
       <div className="product-details">
       <h2>NovaForm Sofa</h2>
-        <p>Stellar Seating Solutions</p>
+        <p>Stellar Seating Solution</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>

@@ -74,7 +74,7 @@ You can complete your wing chair with OSKARSHAMN footstool to sit even more comf
     <p>
     <li>Depth: 86 cm (33 7/8 ")</li>
 
-    <li>Height: 99 cm (39 ")</li>
+    <li>Height: 89 cm (39 ")</li>
 
     <li>Seat depth: 54 cm (21 1/4 ")</li>
 

@@ -39,7 +39,7 @@ function sofa4() {
         </div>
       </div>
       <div className="product-details">
-        <h2>TranquilTide Sofa</h2>
+      <h2>TranquilTide Sofa</h2>
         <p>Zenith Designs</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">

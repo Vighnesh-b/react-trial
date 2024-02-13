@@ -78,7 +78,7 @@ You can place the chaise longue section to the left or right of the sofa, and sw
   <li>Depth chaise longue: 164 cm (64 5/8 ")</li>
   <li>Width: 322 cm (126 3/4 ")</li>
   <li>Depth: 98 cm (38 5/8 ")</li>
-  <li>Seat depth, chaise longue: 125 cm (49 1/4 ")</li>
+  <li>Seat depth, chaise longue: 124 cm (49 1/4 ")</li>
   <li>Free height under furniture: 6 cm (2 3/8 ")</li>
   <li>Armrest width: 15 cm (5 7/8 ")</li>
   <li>Armrest height: 68 cm (26 3/4 ")</li>

@@ -66,8 +66,7 @@ function sofa6() {
    <p>Seat cushions filled with high resilience foam and polyester fibre wadding give comfortable support for your body, and easily regain their shape when you get up.
 
 Back cushions filled with polyester fibres for soft comfort.</p>
-    <h2>Measurements</h2>
-    <p>
+<p>
   <li>Height incl. headrest: 72 cm (28 3/8 ")</li>
   <li>Height including back cushions: 82 cm (32 1/4 ")</li>
   <li>Height backrest: 72 cm (28 3/8 ")</li>

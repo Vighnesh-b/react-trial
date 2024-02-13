@@ -86,7 +86,7 @@ Back cushions filled with polyester fibres for soft comfort.</p>
 <li>Bed width: 145 cm (57 1/8 ")</li>
 <li>Bed length: 183 cm (72 ")</li>
 <li>Bed height: 35 cm (13 3/4 ")</li>
-<li>Armrest height: 66 cm (26 ")</li>     
+<li>Armrest height: 66 cm (25 ")</li>     
     </p>
     </div>
     
