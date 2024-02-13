@@ -53,7 +53,7 @@ function Chairs(){
                 </div>  
                 <div className="product">
                     <img src={IMAGES.c4_1} alt="Product 4" />
-                    <h3>Nexus Cozy Corner Chair</h3>
+                    <h3>Nexus Corner Chair</h3>
                     <p>By Nexus Home</p>
                     <p>₹14999</p>
                     <button onClick={goToChair4}>VIEW PRODUCT</button>
