@@ -4,6 +4,7 @@ import Error from './Error';
 import Chairs from './Chairs/Chairs';
 import Sofas from './Sofas/Sofas';
 import Beds from './Beds/Beds';
+import Wardrobes from './Wardrobes/Wardrobes';
 import {
   BrowserRouter,
   Route,
@@ -28,6 +29,12 @@ import Bed3 from './Beds/bed3';
 import Bed4 from './Beds/bed4';
 import Bed5 from './Beds/bed5';
 import Bed6 from './Beds/bed6';
+import Wardrobe1 from './Wardrobes/wardrobe1';
+import Wardrobe2 from './Wardrobes/wardrobe2';
+import Wardrobe3 from './Wardrobes/wardrobe3';
+import Wardrobe4 from './Wardrobes/wardrobe4';
+import Wardrobe5 from './Wardrobes/wardrobe5';
+import Wardrobe6 from './Wardrobes/wardrobe6';
 import Login from './LoginPage/login';
 import SignUp from './LoginPage/signup';
 
@@ -40,6 +47,7 @@ function App() {
           <Route path='/Chairs' element={<Chairs/>}/>
           <Route path='/Sofas' element={<Sofas/>}/>
           <Route path='/Beds' element={<Beds/>}/>
+          <Route path='/Wardrobes' element={<Wardrobes/>}/>
           <Route path='/Chairs/Chair1' element={<Chair1/>}/>
           <Route path='/Chairs/chair2' element={<Chair2/>}/>
           <Route path='/Chairs/chair3' element={<Chair3/>}/>
@@ -58,6 +66,12 @@ function App() {
           <Route path='/Beds/bed4' element={<Bed4/>}/>
           <Route path='/Beds/bed5' element={<Bed5/>}/>
           <Route path='/Beds/bed6' element={<Bed6/>}/>
+          <Route path='/Wardrobes/wardrobe1' element={<Wardrobe1/>}/>
+          <Route path='/Wardrobes/wardrobe2' element={<Wardrobe2/>}/>
+          <Route path='/Wardrobes/wardrobe3' element={<Wardrobe3/>}/>
+          <Route path='/Wardrobes/wardrobe4' element={<Wardrobe4/>}/>
+          <Route path='/Wardrobes/wardrobe5' element={<Wardrobe5/>}/>
+          <Route path='/Wardrobes/wardrobe6' element={<Wardrobe6/>}/>
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
