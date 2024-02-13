@@ -37,7 +37,7 @@ function Header() {
         <Link to="/Wardrobes">Wardrobe</Link>
         </li>
         <li>
-          <a href="">Lamps & Lighting</a>
+        <Link to="/Lamps">Lamps & Lighting</Link>
         </li>
         <li>
           <a href="">Dining Set</a>

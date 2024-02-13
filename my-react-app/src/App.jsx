@@ -5,6 +5,7 @@ import Chairs from './Chairs/Chairs';
 import Sofas from './Sofas/Sofas';
 import Beds from './Beds/Beds';
 import Wardrobes from './Wardrobes/Wardrobes';
+import Lamps from './Lamps/Lamps';
 import {
   BrowserRouter,
   Route,
@@ -35,6 +36,12 @@ import Wardrobe3 from './Wardrobes/wardrobe3';
 import Wardrobe4 from './Wardrobes/wardrobe4';
 import Wardrobe5 from './Wardrobes/wardrobe5';
 import Wardrobe6 from './Wardrobes/wardrobe6';
+import Lamp1 from './Lamps/lamp1';
+import Lamp2 from './Lamps/lamp2';
+import Lamp3 from './Lamps/lamp3';
+import Lamp4 from './Lamps/lamp4';
+import Lamp5 from './Lamps/lamp5';
+import Lamp6 from './Lamps/lamp6';
 import Login from './LoginPage/login';
 import SignUp from './LoginPage/signup';
 
@@ -48,6 +55,7 @@ function App() {
           <Route path='/Sofas' element={<Sofas/>}/>
           <Route path='/Beds' element={<Beds/>}/>
           <Route path='/Wardrobes' element={<Wardrobes/>}/>
+          <Route path='/Lamps' element={<Lamps/>}/>
           <Route path='/Chairs/Chair1' element={<Chair1/>}/>
           <Route path='/Chairs/chair2' element={<Chair2/>}/>
           <Route path='/Chairs/chair3' element={<Chair3/>}/>
@@ -72,6 +80,13 @@ function App() {
           <Route path='/Wardrobes/wardrobe4' element={<Wardrobe4/>}/>
           <Route path='/Wardrobes/wardrobe5' element={<Wardrobe5/>}/>
           <Route path='/Wardrobes/wardrobe6' element={<Wardrobe6/>}/>
+          <Route path='/Lamps/lamp1' element={<Lamp1/>}/>
+          <Route path='/Lamps/lamp2' element={<Lamp2/>}/>
+          <Route path='/Lamps/lamp3' element={<Lamp3/>}/>
+          <Route path='/Lamps/lamp4' element={<Lamp4/>}/>
+          <Route path='/Lamps/lamp5' element={<Lamp5/>}/>
+          <Route path='/Lamps/lamp6' element={<Lamp6/>}/>
+          
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
