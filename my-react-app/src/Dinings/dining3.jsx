@@ -3,7 +3,7 @@ import './Dining1.css';
 import IMAGES from './cah6image';
 
 function dining3() {
-  const unitPrice = 16999;
+  const unitPrice = 14490;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -21,76 +21,80 @@ function dining3() {
   const totalPrice = (quantity * unitPrice).toFixed(2);
 
   return (
-  <>
-    <br />
-    <br />
-    <div className="product-container">
-      <div className="product-image">
-        <div className="big-image"><img src={images[selectedImage]} alt="Furniture" /></div>
-        <div className="image-gallery">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Thumbnail ₹{index + 1}`}
-              className={`thumbnail ₹{index === selectedImage ? 'active' : ''}`}
-              onClick={() => setSelectedImage(index)}
-            />
-          ))}
-        </div>
-      </div>
-      <div className="product-details">
-        <h2>Harmony Sofa</h2>
-        <p className="price">₹{unitPrice.toFixed(2)}</p>
-        <div className="quantity-container">
-          <label htmlFor="quantity">Quantity:</label>
-          <select
-            id="quantity"
-            name="quantity"
-            value={quantity}
-            onChange={handleQuantityChange}
-          >
-            {[1, 2, 3, 4, 5].map((value) => (
-              <option key={value} value={value}>
-                {value}
-              </option>
+    <>
+      <br />
+      <br />
+      <div className="product-container">
+        <div className="product-image">
+          <div className="big-image"><img src={images[selectedImage]} alt="Furniture" /></div>
+          <div className="image-gallery">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Thumbnail ₹{index + 1}`}
+                className={`thumbnail ₹{index === selectedImage ? 'active' : ''}`}
+                onClick={() => setSelectedImage(index)}
+              />
             ))}
-          </select>
+          </div>
         </div>
-        <p className="total-price">Total Price: ₹{totalPrice}</p>
-        <button className="add-to-cart">Add to Cart</button>
+        <div className="product-details">
+          <h2>Pure Elegance Set</h2>
+          <p className="price">₹{unitPrice.toFixed(2)}</p>
+          <div className="quantity-container">
+            <label htmlFor="quantity">Quantity:</label>
+            <select
+              id="quantity"
+              name="quantity"
+              value={quantity}
+              onChange={handleQuantityChange}
+            >
+              {[1, 2, 3, 4, 5].map((value) => (
+                <option key={value} value={value}>
+                  {value}
+                </option>
+              ))}
+            </select>
+          </div>
+          <p className="total-price">Total Price: ₹{totalPrice}</p>
+          <button className="add-to-cart">Add to Cart</button>
+        </div>
       </div>
-    </div>
-    <div className="description">
-    <h2>Product details</h2>
-    <p>This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
+      <div className="description">
+        <h2>Product details</h2>
+        <p>The melamine table top is moisture resistant, stain resistant and easy to keep clean.
 
-Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.
+          Extendable dining table with 1 extra leaf seats 4-6; makes it possible to adjust the table size according to need.
 
-The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against.
+          The extra leaf can be stored within easy reach under the table top.
 
-You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.</p>
-    <h2>Measurements</h2>
-    <p>
-    <li>Depth: 86 cm (33 7/8 ")</li>
+          1 extension leaf included.
 
-    <li>Height: 99 cm (39 ")</li>
+          Can be easily extended by one person.
 
-    <li>Seat depth: 54 cm (21 1/4 ")</li>
+          The smart design means that the table top has no seams when you use the table without extending it.
 
-    <li>Seat height: 44 cm (17 3/8 ")</li>
+          You can stack the chairs, so they take less space when you're not using them.</p>
+        <h2>Measurements</h2>
+        <p>Table:</p>
+        <p>
+          <li>Width: 77 cm (30 ¼")</li>
+          <li>Height: 5 cm (2")</li>
+          <li>Length: 123 cm (48 ¼")</li>
+          <li>Weight: 18.60 kg (40 lb 16 oz)</li>
+        </p>
+        <p>Chair:</p>
+        <p>
+          <li>Width: 49 cm (19 ¼")</li>
+          <li>Height: 8 cm (3")</li>
+          <li>Length: 76 cm (29 ¾")</li>
+          <li>Weight: 2.83 kg (6 lb 4 oz)</li>
+        </p>
+      </div>
 
-    <li>Seat width: 54 cm (21 1/4 ")</li>
-
-    <li>Width: 82 cm (32 1/4 ")</li>
-
-
-      
-    </p>
-    </div>
-    
     </>
-    
+
   );
 }
 export default dining3;
