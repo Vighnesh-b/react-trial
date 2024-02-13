@@ -3,7 +3,7 @@ import './Sofa1.css';
 import IMAGES from './cah2image';
 
 function sofa3() {
-  const unitPrice = 18999;
+  const unitPrice = 16999;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -39,7 +39,8 @@ function sofa3() {
         </div>
       </div>
       <div className="product-details">
-        <h2>LuxeLounge Sofa</h2>
+        <h2>UrbanScape Sofa</h2>
+        <p>Metropolis Furnishings</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -62,29 +63,30 @@ function sofa3() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
+    <p>5 year guarantee. Read about the terms in the guarantee brochure.
 
-Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.
+A sofa-bed with small, neat dimensions which is easy to furnish with, even when space is limited.
 
-The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against.
+The storage space under the seat has room for pillows and throws.
 
-You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.</p>
-    <h2>Measurements</h2>
+Readily converts into a bed.
+
+You get an even surface to sleep on since the seat comes as a single piece.
+
+Seat cushions filled with high resilience foam and polyester fibre wadding give comfortable support for your body, and easily regain their shape when you get up.
+
+Back cushions filled with polyester fibres for soft comfort.</p>
+<h2>Measurements</h2>
     <p>
-    <li>Depth: 86 cm (33 7/8 ")</li>
-
-    <li>Height: 99 cm (39 ")</li>
-
-    <li>Seat depth: 54 cm (21 1/4 ")</li>
-
-    <li>Seat height: 44 cm (17 3/8 ")</li>
-
-    <li>Seat width: 54 cm (21 1/4 ")</li>
-
-    <li>Width: 82 cm (32 1/4 ")</li>
-
-
-      
+    <li>Width: 220 cm (86 5/8 ")</li>
+<li>Depth: 88 cm (34 5/8 ")</li>
+<li>Height: 92 cm (36 1/4 ")</li>
+<li>Seat depth: 57 cm (22 1/2 ")</li>
+<li>Seat height: 48 cm (18 7/8 ")</li>
+<li>Bed width: 145 cm (57 1/8 ")</li>
+<li>Bed length: 183 cm (72 ")</li>
+<li>Bed height: 35 cm (13 3/4 ")</li>
+<li>Armrest height: 66 cm (26 ")</li>     
     </p>
     </div>
     

@@ -3,15 +3,15 @@ import './Sofa1.css';
 import IMAGES from './cah2image';
 
 function sofa6() {
-  const unitPrice = 18999;
+  const unitPrice = 17999;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
 
   const images = [
-    IMAGES.c3_1,
-    IMAGES.c3_2,
-    IMAGES.c3_3
+    IMAGES.c6_1,
+    IMAGES.c6_2,
+    IMAGES.c6_3
   ];
 
   function handleQuantityChange(e) {
@@ -39,7 +39,8 @@ function sofa6() {
         </div>
       </div>
       <div className="product-details">
-        <h2>LuxeLounge Sofa</h2>
+      <h2>Enigma Sofa</h2>
+<p>Mystique Furnishings</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -62,32 +63,27 @@ function sofa6() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
+   <p>Seat cushions filled with high resilience foam and polyester fibre wadding give comfortable support for your body, and easily regain their shape when you get up.
 
-Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.
-
-The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against.
-
-You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.</p>
+Back cushions filled with polyester fibres for soft comfort.</p>
     <h2>Measurements</h2>
     <p>
-    <li>Depth: 86 cm (33 7/8 ")</li>
-
-    <li>Height: 99 cm (39 ")</li>
-
-    <li>Seat depth: 54 cm (21 1/4 ")</li>
-
-    <li>Seat height: 44 cm (17 3/8 ")</li>
-
-    <li>Seat width: 54 cm (21 1/4 ")</li>
-
-    <li>Width: 82 cm (32 1/4 ")</li>
-
+  <li>Height incl. headrest: 72 cm (28 3/8 ")</li>
+  <li>Height including back cushions: 82 cm (32 1/4 ")</li>
+  <li>Height backrest: 72 cm (28 3/8 ")</li>
+  <li>Width: 201 cm (79 1/8 ")</li>
+  <li>Depth: 91 cm (35 7/8 ")</li>
+  <li>Free height under furniture: 15 cm (5 7/8 ")</li>
+  <li>Armrest width: 18 cm (7 1/8 ")</li>
+  <li>Armrest height: 60 cm (23 5/8 ")</li>
+  <li>Seat width: 166 cm (65 3/8 ")</li>
+  <li>Seat depth: 54 cm (21 1/4 ")</li>
+  <li>Seat height: 48 cm (18 7/8 ")</li>
+  <li>Height: 82 cm (32 1/4 ")</li>
 
       
     </p>
     </div>
-    
     </>
     
   );

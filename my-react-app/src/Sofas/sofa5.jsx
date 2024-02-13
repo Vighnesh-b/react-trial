@@ -3,7 +3,7 @@ import './Sofa1.css';
 import IMAGES from './cah2image';
 
 function sofa5() {
-  const unitPrice = 18999;
+  const unitPrice = 15999;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -39,7 +39,8 @@ function sofa5() {
         </div>
       </div>
       <div className="product-details">
-        <h2>LuxeLounge Sofa</h2>
+      <h2>NovaForm Sofa</h2>
+        <p>Stellar Seating Solutions</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -62,29 +63,21 @@ function sofa5() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
+    <p>This sofa converts quickly and easily into a spacious bed when you remove the back cushions and pull out the underframe.
 
-Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.
+Sofa, chaise longue and double bed in one.
 
-The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against.
+Storage space under the chaise longue. The lid stays open so you can safely and easily take things in and out.
 
-You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.</p>
+You can place the chaise longue section to the left or right of the sofa, and switch whenever you like.</p>
     <h2>Measurements</h2>
     <p>
-    <li>Depth: 86 cm (33 7/8 ")</li>
-
-    <li>Height: 99 cm (39 ")</li>
-
-    <li>Seat depth: 54 cm (21 1/4 ")</li>
-
-    <li>Seat height: 44 cm (17 3/8 ")</li>
-
-    <li>Seat width: 54 cm (21 1/4 ")</li>
-
-    <li>Width: 82 cm (32 1/4 ")</li>
-
-
-      
+  <li>Depth: 151 cm (59 1/2 ")</li>
+  <li>Bed width: 140 cm (55 1/8 ")</li>
+  <li>Bed length: 204 cm (80 3/8 ")</li>
+  <li>Height including back cushions: 86 cm (33 7/8 ")</li>
+  <li>Height backrest: 66 cm (26 ")</li>
+  <li>Width: 230 cm (90 1/2 ")</li>      
     </p>
     </div>
     

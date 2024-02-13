@@ -40,6 +40,7 @@ function sofa2() {
       </div>
       <div className="product-details">
         <h2>LuxeLounge Sofa</h2>
+        <p>Opulent Living Co.</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>

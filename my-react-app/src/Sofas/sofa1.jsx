@@ -3,7 +3,7 @@ import './Sofa1.css';
 import IMAGES from './cah2image';
 
 function sofa1() {
-  const unitPrice = 16999;
+  const unitPrice = 13000;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -41,6 +41,7 @@ function sofa1() {
       </div>
       <div className="product-details">
         <h2>Harmony Sofa</h2>
+        <p>Serenity Sofas</p>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -63,26 +64,27 @@ function sofa1() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
+    <p>This soft sofa will have a long life since the seat cushions are filled with high resilience foam that gives good support for your body and quickly regains its original shape when you get up. The chaise longue has storage under the seat. The lid automatically stops in the open position so that you can easily pick out and put back the things that you are storing. You can complete with VIMLE headrest to extend the backrest of the sofa, so that you sit even more comfortably with a nice support for your neck.
 
-Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.
+This cover is made from Saxemara fabric in cotton and polyester. The needlecord corduroy is soft yet durable and has a modern, elegant look.
 
-The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against.
+The cover is easy to keep clean since it is removable and machine washable.
 
-You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.</p>
+You can place the chaise longue section to the left or right of the sofa, and switch whenever you like.</p>
     <h2>Measurements</h2>
     <p>
-    <li>Depth: 86 cm (33 7/8 ")</li>
-
-    <li>Height: 99 cm (39 ")</li>
-
-    <li>Seat depth: 54 cm (21 1/4 ")</li>
-
-    <li>Seat height: 44 cm (17 3/8 ")</li>
-
-    <li>Seat width: 54 cm (21 1/4 ")</li>
-
-    <li>Width: 82 cm (32 1/4 ")</li>
+    <li>Height including back cushions: 83 cm (32 5/8 ")</li> 
+  <li>Height backrest: 68 cm (26 3/4 ")</li>
+  <li>Depth chaise longue: 164 cm (64 5/8 ")</li>
+  <li>Width: 322 cm (126 3/4 ")</li>
+  <li>Depth: 98 cm (38 5/8 ")</li>
+  <li>Seat depth, chaise longue: 125 cm (49 1/4 ")</li>
+  <li>Free height under furniture: 6 cm (2 3/8 ")</li>
+  <li>Armrest width: 15 cm (5 7/8 ")</li>
+  <li>Armrest height: 68 cm (26 3/4 ")</li>
+  <li>Seat width: 292 cm (115 ")</li>
+  <li>Seat depth: 55 cm (21 5/8 ")</li>
+  <li>Seat height: 48 cm (18 7/8 ")</li>
 
 
       
