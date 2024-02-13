@@ -6,6 +6,7 @@ import Sofas from './Sofas/Sofas';
 import Beds from './Beds/Beds';
 import Wardrobes from './Wardrobes/Wardrobes';
 import Lamps from './Lamps/Lamps';
+import Dinings from './Dinings/Dinings';
 import {
   BrowserRouter,
   Route,
@@ -42,6 +43,12 @@ import Lamp3 from './Lamps/lamp3';
 import Lamp4 from './Lamps/lamp4';
 import Lamp5 from './Lamps/lamp5';
 import Lamp6 from './Lamps/lamp6';
+import Dining1 from './Dinings/dining1';
+import Dining2 from './Dinings/dining2';
+import Dining3 from './Dinings/dining3';
+import Dining4 from './Dinings/dining4';
+import Dining5 from './Dinings/dining5';
+import Dining6 from './Dinings/dining6';
 import Login from './LoginPage/login';
 import SignUp from './LoginPage/signup';
 
@@ -56,6 +63,7 @@ function App() {
           <Route path='/Beds' element={<Beds/>}/>
           <Route path='/Wardrobes' element={<Wardrobes/>}/>
           <Route path='/Lamps' element={<Lamps/>}/>
+          <Route path='/Dinings' element={<Dinings/>}/>
           <Route path='/Chairs/Chair1' element={<Chair1/>}/>
           <Route path='/Chairs/chair2' element={<Chair2/>}/>
           <Route path='/Chairs/chair3' element={<Chair3/>}/>
@@ -86,7 +94,12 @@ function App() {
           <Route path='/Lamps/lamp4' element={<Lamp4/>}/>
           <Route path='/Lamps/lamp5' element={<Lamp5/>}/>
           <Route path='/Lamps/lamp6' element={<Lamp6/>}/>
-          
+          <Route path='/Dinings/dining1' element={<Dining1/>}/>
+          <Route path='/Dinings/dining2' element={<Dining2/>}/>
+          <Route path='/Dinings/dining3' element={<Dining3/>}/>
+          <Route path='/Dinings/dining4' element={<Dining4/>}/>
+          <Route path='/Dinings/dining5' element={<Dining5/>}/>
+          <Route path='/Dinings/dining6' element={<Dining6/>}/>
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
