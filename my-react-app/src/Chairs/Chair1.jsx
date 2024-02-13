@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import './Chair1.css'
 import IMAGES from './cahimage';
+import { useEffect } from 'react';
 
 function Chair1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const unitPrice = 13000;
 
   const [quantity, setQuantity] = useState(1);

@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import './Dining1.css';
 import IMAGES from './cah6image';
+import { useEffect } from 'react';
 
 function dining3() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const unitPrice = 14490;
 
   const [quantity, setQuantity] = useState(1);

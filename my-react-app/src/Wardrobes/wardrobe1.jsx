@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './Wardrobe1.css';
 import IMAGES from './cah4image';
-
+import { useEffect } from 'react';
 function wardrobe1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const unitPrice = 16999;
 
   const [quantity, setQuantity] = useState(1);

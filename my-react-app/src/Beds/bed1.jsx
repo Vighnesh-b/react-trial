@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import './Bed1.css';
 import IMAGES from './cah3image';
-
+import { useEffect } from 'react';
 function bed1() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const unitPrice = 18999;
 
   const [quantity, setQuantity] = useState(1);

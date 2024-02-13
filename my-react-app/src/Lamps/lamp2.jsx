@@ -3,7 +3,7 @@ import './Lamp1.css';
 import IMAGES from './cah5image';
 
 function lamp2() {
-  const unitPrice = 16999;
+  const unitPrice = 1790;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -40,7 +40,7 @@ function lamp2() {
         </div>
       </div>
       <div className="product-details">
-        <h2>Harmony Sofa</h2>
+        <h2>Bedside Night Lamp</h2>
         <p className="price">₹{unitPrice.toFixed(2)}</p>
         <div className="quantity-container">
           <label htmlFor="quantity">Quantity:</label>
@@ -63,26 +63,14 @@ function lamp2() {
     </div>
     <div className="description">
     <h2>Product details</h2>
-    <p>This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
-
-Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.
-
-The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against.
-
-You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.</p>
+    <p>The textile shade provides a diffused and decorative light.</p>
     <h2>Measurements</h2>
     <p>
-    <li>Depth: 86 cm (33 7/8 ")</li>
-
-    <li>Height: 99 cm (39 ")</li>
-
-    <li>Seat depth: 54 cm (21 1/4 ")</li>
-
-    <li>Seat height: 44 cm (17 3/8 ")</li>
-
-    <li>Seat width: 54 cm (21 1/4 ")</li>
-
-    <li>Width: 82 cm (32 1/4 ")</li>
+    <li>Max. Power: 75 W</li>
+  <li>Height: 55 cm (22")</li>
+  <li>Base Diameter: 15 cm (6")</li>
+  <li>Shade Diameter: 22 cm (9")</li>
+  <li>Cord Length: 203 cm (6' 8")</li>
 
 
       
