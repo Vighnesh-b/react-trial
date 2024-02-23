@@ -52,6 +52,8 @@ import Dining6 from './Dinings/dining6';
 import Login from './LoginPage/login';
 import SignUp from './LoginPage/signup';
 
+import Product_page from './Product_info/Product_page';
+
 function App() {
   return (
     <BrowserRouter>
@@ -64,7 +66,7 @@ function App() {
           <Route path='/Wardrobes' element={<Wardrobes/>}/>
           <Route path='/Lamps' element={<Lamps/>}/>
           <Route path='/Dinings' element={<Dinings/>}/>
-          <Route path='/Chairs/Chair1' element={<Chair1/>}/>
+          <Route path='/Chairs/Chair1' element={<Product_page Id={1} />}/>
           <Route path='/Chairs/chair2' element={<Chair2/>}/>
           <Route path='/Chairs/chair3' element={<Chair3/>}/>
           <Route path='/Chairs/chair4' element={<Chair4/>}/>

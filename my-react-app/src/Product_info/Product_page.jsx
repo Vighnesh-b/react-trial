@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import './Chair1.css';
-import PRODUCTS from '../Product_info/product_info';
+import './Product_page.css';
+import PRODUCTS from './product_info';
 
-function Chair1() {
-  const chairId = 1; // Change this to the desired chair id
-  const selectedChair = PRODUCTS.find(chair => chair.id === chairId);
+function Product_page({ Id }) { 
+  const selectedChair = PRODUCTS.find(chair => chair.id === Id);
 
   if (!selectedChair) {
     return <div>Chair not found</div>;
@@ -25,20 +24,21 @@ function Chair1() {
     <>
       <br />
       <br />
-      <div className="product-container"><div className="product-image">
-        <div className="big-image"><img src={images[selectedImage]} alt="Furniture" /></div>
-        <div className="image-gallery">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Thumbnail ₹{index + 1}`}
-              className={`thumbnail ₹{index === selectedImage ? 'active' : ''}`}
-              onClick={() => setSelectedImage(index)}
-            />
-          ))}
+      <div className="product-container">
+        <div className="product-image">
+          <div className="big-image"><img src={images[selectedImage]} alt="Furniture" /></div>
+          <div className="image-gallery">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Thumbnail ₹{index + 1}`}
+                className={`thumbnail ₹{index === selectedImage ? 'active' : ''}`}
+                onClick={() => setSelectedImage(index)}
+              />
+            ))}
+          </div>
         </div>
-      </div>
         <div className="product-details">
           <h2>{name}</h2>
           <p className="price">₹{unitPrice.toFixed(2)}</p>
@@ -75,4 +75,4 @@ function Chair1() {
   );
 }
 
-export default Chair1;
+export default Product_page;
