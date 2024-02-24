@@ -3,13 +3,13 @@ import './Product_page.css';
 import PRODUCTS from './product_info';
 
 function Product_page({ Id }) { 
-  const selectedChair = PRODUCTS.find(chair => chair.id === Id);
+  const selectedProduct = PRODUCTS.find(product => product.id === Id);
 
-  if (!selectedChair) {
-    return <div>Chair not found</div>;
+  if (!selectedProduct) {
+    return <div>Product not found</div>;
   }
 
-  const { name, unitPrice, images, description, measurements } = selectedChair;
+  const { name, unitPrice, images, description, measurements } = selectedProduct;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
