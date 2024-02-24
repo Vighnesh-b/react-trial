@@ -23,7 +23,7 @@ function Header() {
       </div>
     </header>
     <nav>
-      <ul>
+      <ul className="bar">
         <li>
           <Link to="/Chairs">Chair</Link>
         </li>

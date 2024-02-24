@@ -161,7 +161,7 @@ const PRODUCTS = [{
     'Seat depth: 55 cm (21 5/8 ")',
     'Seat height: 48 cm (18 7/8 ")',
   ],
-}
+},
 
 ];
 export default PRODUCTS;

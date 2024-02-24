@@ -65,7 +65,7 @@ function Product_page({ Id }) {
         <h2>Product details</h2>
         <p>{description}</p>
         <h2>Measurements</h2>
-        <ul>
+        <ul className='measurements'>
           {measurements.map((measurement, index) => (
             <li key={index}>{measurement}</li>
           ))}
