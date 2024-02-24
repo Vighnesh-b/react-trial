@@ -5,8 +5,8 @@ import sofa from './body-img/sf.png';
 
 import dset from './body-img/dtable.jpg';
 import c2_1 from '../Chairs/chair_images/c2.1.avif';
-import c3_1 from '../images/sofa_images/sofas.avif';
-import c4_1 from '../images/Dining_set/dining.avif';
+import c3_1 from '../Sofas/sofa_images/c3.1.avif';
+import c4_1 from '../Dinings/dining_images/c3.1.avif';
 import c5_1 from '../Beds/bed_images/c1.1.avif';
 import c6_1 from '../Lamps/lamp_images/c1.1.avif';
 import c7_1 from '../Wardrobes/wardrobe_images/c1.1.avif';
