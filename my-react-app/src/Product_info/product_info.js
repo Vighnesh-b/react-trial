@@ -1,6 +1,9 @@
 import Chair_images from '../Chairs/cahimage.js';
 import sofa_images from '../Sofas/cah2image.js';
 import bed_images from '../Beds/cah3image.js';
+import wardrobe_images from '../Wardrobes/cah4image.js';
+import lamp_images from '../Lamps/cah5image.js';
+import dining_images from '../Dinings/cah6image.js';
 
 const PRODUCTS = [{
     id:1,
@@ -386,7 +389,360 @@ const PRODUCTS = [{
     'Seat width: 54 cm (21 1/4 ")',
     'Width: 82 cm (32 1/4 ")'
   ],
+},
+{
+  id: 19,
+  name: 'Eido',
+  unitPrice: 16999,
+  images: [
+    wardrobe_images.c1_1,
+    wardrobe_images.c1_2,
+    wardrobe_images.c1_3
+  ],
+  description: `This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socializing with others. Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere. The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against. You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.`,
+  measurements: [
+    'Depth: 86 cm (33 7/8 ")',
+    'Height: 99 cm (39 ")',
+    'Seat depth: 54 cm (21 1/4 ")',
+    'Seat height: 44 cm (17 3/8 ")',
+    'Seat width: 54 cm (21 1/4 ")',
+    'Width: 82 cm (32 1/4 ")'
+  ],
+},
+{
+  id: 20,
+  name: 'Vestiaire:',
+  unitPrice: 16999,
+  images: [
+    wardrobe_images.c2_1,
+    wardrobe_images.c2_2,
+    wardrobe_images.c2_3
+  ],
+  description: `This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socializing with others. Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere. The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against. You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.`,
+  measurements: [
+    'Depth: 86 cm (33 7/8 ")',
+    'Height: 99 cm (39 ")',
+    'Seat depth: 54 cm (21 1/4 ")',
+    'Seat height: 44 cm (17 3/8 ")',
+    'Seat width: 54 cm (21 1/4 ")',
+    'Width: 82 cm (32 1/4 ")'
+  ],
+},
+{
+  id: 21,
+  name: 'Havenly:',
+  unitPrice: 16999,
+  images: [
+    wardrobe_images.c3_1,
+    wardrobe_images.c3_2,
+    wardrobe_images.c3_3
+  ],
+  description: `This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socializing with others. Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere. The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against. You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.`,
+  measurements: [
+    'Depth: 86 cm (33 7/8 ")',
+    'Height: 99 cm (39 ")',
+    'Seat depth: 54 cm (21 1/4 ")',
+    'Seat height: 44 cm (17 3/8 ")',
+    'Seat width: 54 cm (21 1/4 ")',
+    'Width: 82 cm (32 1/4 ")'
+  ],
+},
+{
+  id: 22,
+  name: 'Attire Vault',
+  unitPrice: 16999,
+  images: [
+    wardrobe_images.c4_1,
+    wardrobe_images.c4_2,
+    wardrobe_images.c4_3
+  ],
+  description: `This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socializing with others. Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere. The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against. You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.`,
+  measurements: [
+    'Depth: 86 cm (33 7/8 ")',
+    'Height: 99 cm (39 ")',
+    'Seat depth: 54 cm (21 1/4 ")',
+    'Seat height: 44 cm (17 3/8 ")',
+    'Seat width: 54 cm (21 1/4 ")',
+    'Width: 82 cm (32 1/4 ")'
+  ],
+},
+{
+  id: 23,
+  name: 'Morph',
+  unitPrice: 16999,
+  images: [
+    wardrobe_images.c5_1,
+    wardrobe_images.c5_2,
+    wardrobe_images.c5_3
+  ],
+  description: `This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socializing with others. Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere. The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against. You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.`,
+  measurements: [
+    'Depth: 86 cm (33 7/8 ")',
+    'Height: 99 cm (39 ")',
+    'Seat depth: 54 cm (21 1/4 ")',
+    'Seat height: 44 cm (17 3/8 ")',
+    'Seat width: 54 cm (21 1/4 ")',
+    'Width: 82 cm (32 1/4 ")'
+  ],
+},
+{
+  id: 24,
+  name: 'Symbio',
+  unitPrice: 16999,
+  images: [
+    wardrobe_images.c6_1,
+    wardrobe_images.c6_2,
+    wardrobe_images.c6_3
+  ],
+  description: `This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socializing with others. Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere. The wing chair has a high comfort level thanks to the seat with a combination of supportive springs and soft foam, lumbar support, armrests and an extra-high backrest that you can lean against. You can complete your wing chair with OSKARSHAMN footstool to sit even more comfortably.`,
+  measurements: [
+    'Depth: 86 cm (33 7/8 ")',
+    'Height: 99 cm (39 ")',
+    'Seat depth: 54 cm (21 1/4 ")',
+    'Seat height: 44 cm (17 3/8 ")',
+    'Seat width: 54 cm (21 1/4 ")',
+    'Width: 82 cm (32 1/4 ")'
+  ],
+},
+{
+  id: 25,
+  name: 'Armchair Reading Lamp',
+  unitPrice: 1490,
+  images: [
+    lamp_images.c1_1,
+    lamp_images.c1_2,
+    lamp_images.c1_3
+  ],
+  description: `Provides a directed light that is great for reading. You can easily direct the light where you want it because the lamp arm is adjustable.`,
+  measurements: [
+    'Max. Power: 20 W',
+    'Height: 131 cm (52")',
+    'Base Diameter: 25.5 cm (10")',
+    'Shade Diameter: 15.5 cm (6")',
+    'Cord Length: 200 cm (6\' 7")'
+  ],
+},
+{
+  id: 26,
+  name: 'Bedside Night Lamp:',
+  unitPrice: 1790,
+  images: [
+    lamp_images.c2_1,
+    lamp_images.c2_2,
+    lamp_images.c2_3
+  ],
+  description: `The textile shade provides a diffused and decorative light.`,
+  measurements: [
+    'Max. Power: 75 W',
+    'Height: 55 cm (22")',
+    'Base Diameter: 15 cm (6")',
+    'Shade Diameter: 22 cm (9")',
+    'Cord Length: 203 cm (6\' 8")'
+  ],
+},
+{
+  id: 27,
+  name: 'Table Lamp:',
+  unitPrice: 899,
+  images: [
+    lamp_images.c3_1,
+    lamp_images.c3_2,
+    lamp_images.c3_3
+  ],
+  description: `Small and easy to place anywhere you want to bring some cosiness and mood light into your home.`,
+  measurements: [
+    'Max. Power: 4.4 W (4 W)',
+    'Shade Width: 13 cm (5")',
+    'Height: 15 cm (6")',
+    'Base Diameter: 8 cm (3")',
+    'Cord Length: 200 cm (6\' 7")'
+  ],
+},
+{
+  id: 28,
+  name: 'Rustic Table Lamp:',
+  unitPrice: 1490,
+  images: [
+    lamp_images.c4_1,
+    lamp_images.c4_2,
+    lamp_images.c4_3
+  ],
+  description: `The lamp gives a soft light and creates a warm, cosy atmosphere in your room.`,
+  measurements: [
+    'Max. Power: 13 W',
+    'Shade Width: 16 cm (6")',
+    'Base Diameter: 14 cm (6")',
+    'Cord Length: 200 cm (6\' 7")',
+    'Total Height: 28 cm (11")'
+  ],
+},
+{
+  id: 29,
+  name: 'Adjustable Study Lamp:',
+  unitPrice: 1590,
+  images: [
+    lamp_images.c5_1,
+    lamp_images.c5_2,
+    lamp_images.c5_3
+  ],
+  description: `You can easily direct the light where you want it because the lamp arm and head are adjustable.`,
+  measurements: [
+    'Max. Power: 13 W',
+    'Shade Diameter: 17 cm (7")',
+    'Cord Length: 1.5 m (4\' 11")'
+  ],
+},
+{
+  id: 30,
+  name: 'Pendant Lamp:',
+  unitPrice: 4490,
+  images: [
+    lamp_images.c6_1,
+    lamp_images.c6_2,
+    lamp_images.c6_3
+  ],
+  description: `You can easily switch between a brighter general light and a softer mood light by just pulling the strings. Gives decorative patterns on the ceiling and on the wall.`,
+  measurements: [
+    'Max. Power: 13 W',
+    'Diameter: 35 cm (14")',
+    'Cord Length: 150 cm (4\' 11")'
+  ],
+},
+{
+  id: 31,
+  name: 'Harmony Dining Set:',
+  unitPrice: 6590,
+  images: [
+    dining_images.c1_1,
+    dining_images.c1_2,
+    dining_images.c1_3
+  ],
+  description: `You can stack the chairs, so they take less space when you're not using them. Sturdy metal table frame and durable, smooth melamine tabletop.`,
+  measurements: [
+    'Table:',
+    'Width: 72 cm (28 ¼")',
+    'Height: 2 cm (¾")',
+    'Length: 116 cm (45 ½")',
+    'Weight: 9.00 kg (19 lb 13 oz)',
+    'Chair:',
+    'Width: 49 cm (19 ¼")',
+    'Height: 8 cm (3")',
+    'Length: 76 cm (29 ¾")',
+    'Weight: 2.83 kg (6 lb 4 oz)',
+    'Package(s): 4'
+  ],
+},
+{
+  id: 32,
+  name: 'Sapphire Bistro Set:',
+  unitPrice: 9990,
+  images: [
+    dining_images.c2_1,
+    dining_images.c2_2,
+    dining_images.c2_3
+  ],
+  description: `Extendable dining table with 1 extra leaf seats 4-6; makes it possible to adjust the table size according to need. The smart design means that the table top has no seams when you use the table without extending it. The table legs follow along when you pull out the table and make more room for chairs around the table. The melamine table top is moisture resistant, stain resistant and easy to keep clean. The extra leaf can be stored within easy reach under the table top. Can be easily extended by one person. Chairs not Included.`,
+  measurements: [
+    'Min. Length: 120 cm (47 1/4")',
+    'Max. Length: 180 cm (70 7/8")',
+    'Width: 75 cm (29 1/2")',
+    'Height: 73 cm (28 3/4")'
+  ],
+},
+{
+  id: 33,
+  name: 'Pure Elegance Set:',
+  unitPrice: 14490,
+  images: [
+    dining_images.c3_1,
+    dining_images.c3_2,
+    dining_images.c3_3
+  ],
+  description: `The melamine table top is moisture resistant, stain resistant and easy to keep clean. Extendable dining table with 1 extra leaf seats 4-6; makes it possible to adjust the table size according to need. The extra leaf can be stored within easy reach under the table top. 1 extension leaf included. Can be easily extended by one person. The smart design means that the table top has no seams when you use the table without extending it. You can stack the chairs, so they take less space when you're not using them.`,
+  measurements: [
+    'Table:',
+    'Width: 77 cm (30 ¼")',
+    'Height: 5 cm (2")',
+    'Length: 123 cm (48 ¼")',
+    'Weight: 18.60 kg (40 lb 16 oz)',
+    'Chair:',
+    'Width: 49 cm (19 ¼")',
+    'Height: 8 cm (3")',
+    'Length: 76 cm (29 ¾")',
+    'Weight: 2.83 kg (6 lb 4 oz)'
+  ],
+},
+{
+  id: 34,
+  name: 'Metaluxe Timber Table:',
+  unitPrice: 39990,
+  images: [
+    dining_images.c4_1,
+    dining_images.c4_2,
+    dining_images.c4_3
+  ],
+  description: `Acacia has a rich brown colour and distinctive grain pattern. It is highly durable, resistant to scratches and water, ideal for heavy-use. Acacia slightly darkens with age.`,
+  measurements: [
+    'Length: 235 cm (92 1/2")',
+    'Width: 100 cm (39 3/8")',
+    'Height: 73 cm (28 3/4")'
+  ],
+},
+{
+  id: 35,
+  name: 'Maple Glow Dining Set:',
+  unitPrice: 16999,
+  images: [
+    dining_images.c5_1,
+    dining_images.c5_2,
+    dining_images.c5_3
+  ],
+  description: `Smart construction and a handcrafted look made our LISABO table series a winner of the Red Dot Design Award in 2016. Easy to assemble as each leg has only one fitting. Ash is a strong hardwood material with a beautiful grain pattern. As it ages the colour deepens moderately towards a deep straw colour. The table surface in ash veneer and legs in solid birch give a warm, natural feeling to your room. This table has been tested against our strictest standards for stability, durability and safety to withstand everyday use in your home for years.`,
+  measurements: [
+    'Width: 81 cm (32")',
+    'Height: 6 cm (2 ¼")',
+    'Length: 164 cm (64 ½")',
+    'Weight: 23.35 kg (51 lb 8 oz)'
+  ],
+},
+{
+  id: 36,
+  name: 'Mahogany Eclipse Set:',
+  unitPrice: 36999,
+  images: [
+    dining_images.c6_1,
+    dining_images.c6_2,
+    dining_images.c6_3
+  ],
+  description: `Every table is unique, with varying grain pattern and natural colour shifts that are part of the charm of wood. 1 person can quickly and smoothly extend the table before the guests arrive. The smart design means that the table top has no seams when you use the table without extending it. The extra leaf can be stored within easy reach under the table top. The table legs are always in the corners of the table top even when the table is extended, so there is plenty of room for chairs under the table.`,
+  measurements: [
+    'Table:',
+    'Width: 81 cm (32")',
+    'Height: 5 cm (1 ¾")',
+    'Length: 124 cm (48 ¾")',
+    'Weight: 19.53 kg (43 lb 1 oz)',
+    'Chair:',
+    'Width: 44 cm (17 ¼")',
+    'Height: 15 cm (5 ¾")',
+    'Length: 96 cm (37 ¾")',
+    'Weight: 6.38 kg (14 lb 1 oz)',
+    'Package(s): 6'
+  ],
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
