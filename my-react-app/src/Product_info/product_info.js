@@ -1,4 +1,6 @@
 import Chair_images from '../Chairs/cahimage.js';
+import sofa_images from '../Sofas/cah2image.js';
+
 const PRODUCTS = [{
     id:1,
     name: 'Cosmo Comfort Armchair',
@@ -133,6 +135,31 @@ const PRODUCTS = [{
     'Seat height: 44 cm (17 3/8 ")',
     'Seat width: 54 cm (21 1/4 ")',
     'Width: 82 cm (32 1/4 ")',
+  ],
+},
+{
+  id:7,
+  name: 'Harmony Sofa',
+  unitPrice: 13000,
+  images: [
+    sofa_images.c1_1,
+    sofa_images.c1_2,
+    sofa_images.c1_3
+  ],
+  description: `This soft sofa will have a long life since the seat cushions are filled with high resilience foam that gives good support for your body and quickly regains its original shape when you get up. The chaise longue has storage under the seat. The lid automatically stops in the open position so that you can easily pick out and put back the things that you are storing. You can complete with VIMLE headrest to extend the backrest of the sofa, so that you sit even more comfortably with a nice support for your neck. This cover is made from Saxemara fabric in cotton and polyester. The needlecord corduroy is soft yet durable and has a modern, elegant look. The cover is easy to keep clean since it is removable and machine washable. You can place the chaise longue section to the left or right of the sofa, and switch whenever you like.`,
+  measurements: [
+    'Height including back cushions: 83 cm (32 5/8 ")',
+    'Height backrest: 68 cm (26 3/4 ")',
+    'Depth chaise longue: 164 cm (64 5/8 ")',
+    'Width: 322 cm (126 3/4 ")',
+    'Depth: 98 cm (38 5/8 ")',
+    'Seat depth, chaise longue: 124 cm (49 1/4 ")',
+    'Free height under furniture: 6 cm (2 3/8 ")',
+    'Armrest width: 15 cm (5 7/8 ")',
+    'Armrest height: 68 cm (26 3/4 ")',
+    'Seat width: 292 cm (115 ")',
+    'Seat depth: 55 cm (21 5/8 ")',
+    'Seat height: 48 cm (18 7/8 ")',
   ],
 }
 

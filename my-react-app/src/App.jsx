@@ -66,7 +66,7 @@ function App() {
           <Route path='/Chairs/chair4' element={<Product_page Id={4} />}/>
           <Route path='/Chairs/chair5' element={<Product_page Id={5} />}/>
           <Route path='/Chairs/chair6' element={<Product_page Id={6} />}/>
-          <Route path='/Sofas/sofa1' element={<Sofa1/>}/>
+          <Route path='/Sofas/sofa1' element={<Product_page Id={7} />}/>
           <Route path='/Sofas/sofa2' element={<Sofa2/>}/>
           <Route path='/Sofas/sofa3' element={<Sofa3/>}/>
           <Route path='/Sofas/sofa4' element={<Sofa4/>}/>
