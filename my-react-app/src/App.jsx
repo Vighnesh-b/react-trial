@@ -13,7 +13,6 @@ import {
   Routes,
 } from "react-router-dom";
 import MainHeader from './Home_page/MainHeader';
-import Sofa1 from './Sofas/sofa1';
 import Sofa2 from './Sofas/sofa2';
 import Sofa3 from './Sofas/sofa3';
 import Sofa4 from './Sofas/sofa4';
