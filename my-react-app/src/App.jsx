@@ -13,17 +13,6 @@ import {
   Routes,
 } from "react-router-dom";
 import MainHeader from './Home_page/MainHeader';
-import Sofa2 from './Sofas/sofa2';
-import Sofa3 from './Sofas/sofa3';
-import Sofa4 from './Sofas/sofa4';
-import Sofa5 from './Sofas/sofa5';
-import Sofa6 from './Sofas/sofa6';
-import Bed1 from './Beds/bed1';
-import Bed2 from './Beds/bed2';
-import Bed3 from './Beds/bed3';
-import Bed4 from './Beds/bed4';
-import Bed5 from './Beds/bed5';
-import Bed6 from './Beds/bed6';
 import Wardrobe1 from './Wardrobes/wardrobe1';
 import Wardrobe2 from './Wardrobes/wardrobe2';
 import Wardrobe3 from './Wardrobes/wardrobe3';
@@ -66,17 +55,17 @@ function App() {
           <Route path='/Chairs/chair5' element={<Product_page Id={5} />}/>
           <Route path='/Chairs/chair6' element={<Product_page Id={6} />}/>
           <Route path='/Sofas/sofa1' element={<Product_page Id={7} />}/>
-          <Route path='/Sofas/sofa2' element={<Sofa2/>}/>
-          <Route path='/Sofas/sofa3' element={<Sofa3/>}/>
-          <Route path='/Sofas/sofa4' element={<Sofa4/>}/>
-          <Route path='/Sofas/sofa5' element={<Sofa5/>}/>
-          <Route path='/Sofas/sofa6' element={<Sofa6/>}/>
-          <Route path='/Beds/bed1' element={<Bed1/>}/>
-          <Route path='/Beds/bed2' element={<Bed2/>}/>
-          <Route path='/Beds/bed3' element={<Bed3/>}/>
-          <Route path='/Beds/bed4' element={<Bed4/>}/>
-          <Route path='/Beds/bed5' element={<Bed5/>}/>
-          <Route path='/Beds/bed6' element={<Bed6/>}/>
+          <Route path='/Sofas/sofa2' element={<Product_page Id={8} />}/>
+          <Route path='/Sofas/sofa3' element={<Product_page Id={9} />}/>
+          <Route path='/Sofas/sofa4' element={<Product_page Id={10} />}/>
+          <Route path='/Sofas/sofa5' element={<Product_page Id={11} />}/>
+          <Route path='/Sofas/sofa6' element={<Product_page Id={12} />}/>
+          <Route path='/Beds/bed1' element={<Product_page Id={13} />}/>
+          <Route path='/Beds/bed2' element={<Product_page Id={14} />}/>
+          <Route path='/Beds/bed3' element={<Product_page Id={15} />}/>
+          <Route path='/Beds/bed4' element={<Product_page Id={16} />}/>
+          <Route path='/Beds/bed5' element={<Product_page Id={17} />}/>
+          <Route path='/Beds/bed6' element={<Product_page Id={18} />}/>
           <Route path='/Wardrobes/wardrobe1' element={<Wardrobe1/>}/>
           <Route path='/Wardrobes/wardrobe2' element={<Wardrobe2/>}/>
           <Route path='/Wardrobes/wardrobe3' element={<Wardrobe3/>}/>
