@@ -1,12 +1,7 @@
 import React from 'react';
 import Home from './Home_page/Home';
 import Error from './Error';
-import Chairs from './Chairs/Chairs';
-import Sofas from './Sofas/Sofas';
-import Beds from './Beds/Beds';
-import Wardrobes from './Wardrobes/Wardrobes';
-import Lamps from './Lamps/Lamps';
-import Dinings from './Dinings/Dinings';
+
 import {
   BrowserRouter,
   Route,
