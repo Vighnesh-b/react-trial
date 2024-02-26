@@ -79,7 +79,7 @@ function Body() {
                     <div className="card-body">
                         <h4>UrbanScape Sofa</h4>
                         <p className='text-center'>₹16999</p>
-                        <button onClick={() => navigate('/Sofas/sofa3')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Sofas/Sofa9')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
@@ -87,7 +87,7 @@ function Body() {
                     <div className="card-body">
                         <h4>Pure Elegance Set</h4>
                         <p className='text-center'>₹14490</p>
-                        <button onClick={() => navigate('/Dinings/dining3')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Dinings/Dining33')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
@@ -95,7 +95,7 @@ function Body() {
                     <div className="card-body">
                         <h4>BlissfulHaven</h4>
                         <p className='text-center'>₹13000</p>
-                        <button onClick={() => navigate('/Beds/bed1')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Beds/Bed13')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 </div>
@@ -105,7 +105,7 @@ function Body() {
                     <div className="card-body">
                         <h4>Armchair Reading Lamp</h4>
                         <p className='text-center'>₹1490</p>
-                        <button onClick={() => navigate('/Lamps/lamp1')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Lamps/Lamp25')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
@@ -113,7 +113,7 @@ function Body() {
                     <div className="card-body">
                         <h4>Kosmo Lily 2 Door Wardrobe</h4>
                         <p className='text-center'>₹14999</p>
-                        <button onClick={() => navigate('/Wardrobes/wardrobe1')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Wardrobes/Wardrobe19')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
@@ -121,7 +121,7 @@ function Body() {
                     <div className="card-body">
                         <h4>Zenith Lounge Furnish Chair</h4>
                         <p className='text-center'>₹18999</p>
-                        <button onClick={() => navigate('/Chairs/chair2')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Chairs/Chair2')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 <div className="card">
@@ -129,7 +129,7 @@ function Body() {
                     <div className="card-body">
                         <h4>Tranquil Retreat Armchair</h4>
                         <p className='text-center'>₹16999</p>
-                        <button onClick={() => navigate('/Chairs/chair3')}>Shop Now</button>                                                
+                        <button onClick={() => navigate('/Chairs/Chair3')}>Shop Now</button>                                                
                     </div>                                        
                 </div>
                 </div>

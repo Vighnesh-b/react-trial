@@ -7,7 +7,9 @@ import dining_images from '../Dinings/cah6image.js';
 
 const PRODUCTS = [{
     id:1,
+    type:'Chair',
     name: 'Cosmo Comfort Armchair',
+    brand:'CosmoHome',
     unitPrice: 13000,
     images: [Chair_images.c1_1,
             Chair_images.c1_2,
@@ -34,7 +36,9 @@ const PRODUCTS = [{
 },
 {
   id:2,
+  type:'Chair',
   name: 'Zenith Lounge Furnish Chair',
+  brand:'Zenith Furnishings',
   unitPrice: 18999,
   images: [
     Chair_images.c2_1,
@@ -55,7 +59,9 @@ const PRODUCTS = [{
 },
 {
   id:3,
+  type:'Chair',
   name: 'Tranquil Retreat Armchair',
+  brand:'Tranquil Living',
   unitPrice: 16999,
   images: [
     Chair_images.c3_1,
@@ -78,7 +84,9 @@ const PRODUCTS = [{
 },
 {
   id:4,
+  type:'Chair',
   name: 'Nexus Cozy Corner Chair',
+  brand:'Nexus Home',
   unitPrice: 14999,
   images: [
     Chair_images.c4_1,
@@ -98,7 +106,9 @@ const PRODUCTS = [{
 },
 {
   id:5,
+  type:'Chair',
   name: 'Blissful Oasis Armchair',
+  brand:'Bliss Furniture',
   unitPrice: 15999,
   images: [
     Chair_images.c5_1,
@@ -123,7 +133,9 @@ const PRODUCTS = [{
 },
 {
   id:6,
+  type:'Chair',
   name: 'Harmony Lounge Chair',
+  brand:'Harmony Home',
   unitPrice: 17999,
   images: [
     Chair_images.c6_1,
@@ -145,7 +157,9 @@ const PRODUCTS = [{
 },
 {
   id:7,
+  type:'Sofa',
   name: 'Harmony Sofa',
+  brand:'Serenity Sofas',
   unitPrice: 13000,
   images: [
     sofa_images.c1_1,
@@ -170,7 +184,9 @@ const PRODUCTS = [{
 },
 {
   id:8,
+  type:'Sofa',
   name: 'LuxeLounge Sofa',
+  brand:'Opulent Living Co.',
   unitPrice: 18999,
   images: [
     sofa_images.c2_1,
@@ -189,7 +205,9 @@ const PRODUCTS = [{
 },
 {
   id: 9,
+  type:'Sofa',
   name: 'UrbanScape Sofa',
+  brand:'Metropolis Furnishings',
   unitPrice: 16999,
   images: [
     sofa_images.c3_1,
@@ -211,7 +229,9 @@ const PRODUCTS = [{
 },
 {
   id: 10,
+  type:'Sofa',
   name: 'TranquilTide Sofa',
+  brand:'Zenith Designs',
   unitPrice: 14999,
   images: [
     sofa_images.c4_1,
@@ -234,7 +254,9 @@ const PRODUCTS = [{
 },
 {
   id: 11,
+  type:'Sofa',
   name: 'NovaForm Sofa',
+  brand:'Stellar Seating Solutions',
   unitPrice: 15999,
   images: [
     sofa_images.c5_1,
@@ -253,7 +275,9 @@ const PRODUCTS = [{
 },
 {
   id: 12,
+  type:'Sofa',
   name: 'Enigma Sofa',
+  brand:'Mystique Furnishings',
   unitPrice: 17999,
   images: [
     sofa_images.c6_1,
@@ -278,7 +302,9 @@ const PRODUCTS = [{
 },
 {
   id: 13,
+  type:'Bed',
   name: 'BlissfulHaven ',
+  brand:'ComfortCraft',
   unitPrice: 18999,
   images: [
     bed_images.c1_1,
@@ -297,7 +323,9 @@ const PRODUCTS = [{
 },
 {
   id: 14,
+  type:'Bed',
   name: 'SereneDreamscape',
+  brand:'LuxeHaven',
   unitPrice: 18999,
   images: [
     bed_images.c2_1,
@@ -316,7 +344,9 @@ const PRODUCTS = [{
 },
 {
   id: 15,
+  type:'Bed',
   name: 'CozyNook',
+  brand:'SerenitySleep',
   unitPrice: 18999,
   images: [
     bed_images.c3_1,
@@ -335,7 +365,9 @@ const PRODUCTS = [{
 },
 {
   id: 16,
-  name: 'TranquilTide Sofa',
+  type:'Bed',
+  name: 'TranquilTide',
+  brand:'EliteRest',
   unitPrice: 18999,
   images: [
     bed_images.c4_1,
@@ -354,7 +386,9 @@ const PRODUCTS = [{
 },
 {
   id: 17,
+  type:'Bed',
   name: 'HarmonyHaven',
+  brand:'ZenNest',
   unitPrice: 18999,
   images: [
     bed_images.c5_1,
@@ -373,7 +407,9 @@ const PRODUCTS = [{
 },
 {
   id: 18,
+  type:'Bed',
   name: 'RestfulAura',
+  brand:'MNovaDream',
   unitPrice: 18999,
   images: [
     bed_images.c6_1,
@@ -392,7 +428,9 @@ const PRODUCTS = [{
 },
 {
   id: 19,
+  type:'Wardrobe',
   name: 'Eido',
+  brand:'Serenity Sofas',
   unitPrice: 16999,
   images: [
     wardrobe_images.c1_1,
@@ -411,7 +449,9 @@ const PRODUCTS = [{
 },
 {
   id: 20,
-  name: 'Vestiaire:',
+  type:'Wardrobe',
+  name: 'Vestiaire',
+  brand:'Opulent Living Co.',
   unitPrice: 16999,
   images: [
     wardrobe_images.c2_1,
@@ -430,7 +470,9 @@ const PRODUCTS = [{
 },
 {
   id: 21,
-  name: 'Havenly:',
+  type:'Wardrobe',
+  name: 'Havenly',
+  brand:'Metropolis Furnishings',
   unitPrice: 16999,
   images: [
     wardrobe_images.c3_1,
@@ -449,7 +491,9 @@ const PRODUCTS = [{
 },
 {
   id: 22,
+  type:'Wardrobe',
   name: 'Attire Vault',
+  brand:'Zenith Designs',
   unitPrice: 16999,
   images: [
     wardrobe_images.c4_1,
@@ -468,7 +512,9 @@ const PRODUCTS = [{
 },
 {
   id: 23,
+  type:'Wardrobe',
   name: 'Morph',
+  brand:'Stellar Seating Solutions',
   unitPrice: 16999,
   images: [
     wardrobe_images.c5_1,
@@ -487,7 +533,9 @@ const PRODUCTS = [{
 },
 {
   id: 24,
+  type:'Wardrobe',
   name: 'Symbio',
+  brand:'Mystique Furnishings',
   unitPrice: 16999,
   images: [
     wardrobe_images.c6_1,
@@ -506,7 +554,9 @@ const PRODUCTS = [{
 },
 {
   id: 25,
+  type:'Lamp',
   name: 'Armchair Reading Lamp',
+  brand:'Symplify',
   unitPrice: 1490,
   images: [
     lamp_images.c1_1,
@@ -524,7 +574,9 @@ const PRODUCTS = [{
 },
 {
   id: 26,
-  name: 'Bedside Night Lamp:',
+  type:'Lamp',
+  name: 'Bedside Night Lamp',
+  brand:'Foziq',
   unitPrice: 1790,
   images: [
     lamp_images.c2_1,
@@ -542,7 +594,9 @@ const PRODUCTS = [{
 },
 {
   id: 27,
-  name: 'Table Lamp:',
+  type:'Lamp',
+  name: 'Table Lamp',
+  brand:'Skylofts',
   unitPrice: 899,
   images: [
     lamp_images.c3_1,
@@ -560,7 +614,9 @@ const PRODUCTS = [{
 },
 {
   id: 28,
-  name: 'Rustic Table Lamp:',
+  type:'Lamp',
+  name: 'Rustic Table Lamp',
+  brand:'Zenith Designs',
   unitPrice: 1490,
   images: [
     lamp_images.c4_1,
@@ -578,7 +634,9 @@ const PRODUCTS = [{
 },
 {
   id: 29,
+  type:'Lamp',
   name: 'Adjustable Study Lamp:',
+  brand:'BillieJean',
   unitPrice: 1590,
   images: [
     lamp_images.c5_1,
@@ -594,7 +652,9 @@ const PRODUCTS = [{
 },
 {
   id: 30,
-  name: 'Pendant Lamp:',
+  type:'Lamp',
+  name: 'Pendant Lamp',
+  brand:'Radhika Dahlan',
   unitPrice: 4490,
   images: [
     lamp_images.c6_1,
@@ -610,7 +670,9 @@ const PRODUCTS = [{
 },
 {
   id: 31,
-  name: 'Harmony Dining Set:',
+  type:'Dining',
+  name: 'Harmony Dining Set',
+  brand:'Serenity Sofas',
   unitPrice: 6590,
   images: [
     dining_images.c1_1,
@@ -634,7 +696,9 @@ const PRODUCTS = [{
 },
 {
   id: 32,
-  name: 'Sapphire Bistro Set:',
+  type:'Dining',
+  name: 'Sapphire Bistro Set',
+  brand:'Opulent Living Co.',
   unitPrice: 9990,
   images: [
     dining_images.c2_1,
@@ -651,7 +715,9 @@ const PRODUCTS = [{
 },
 {
   id: 33,
-  name: 'Pure Elegance Set:',
+  type:'Dining',
+  name: 'Pure Elegance Set',
+  brand:'Zenith Designs',
   unitPrice: 14490,
   images: [
     dining_images.c3_1,
@@ -674,7 +740,9 @@ const PRODUCTS = [{
 },
 {
   id: 34,
-  name: 'Metaluxe Timber Table:',
+  type:'Dining',
+  name: 'Metaluxe Timber Table',
+  brand:'Stellar Seating Solutions',
   unitPrice: 39990,
   images: [
     dining_images.c4_1,
@@ -690,7 +758,9 @@ const PRODUCTS = [{
 },
 {
   id: 35,
-  name: 'Maple Glow Dining Set:',
+  type:'Dining',
+  name: 'Maple Glow Dining Set',
+  brand:'Mystique Furnishings',
   unitPrice: 16999,
   images: [
     dining_images.c5_1,
@@ -707,7 +777,9 @@ const PRODUCTS = [{
 },
 {
   id: 36,
-  name: 'Mahogany Eclipse Set:',
+  type:'Dining',
+  name: 'Mahogany Eclipse Set',
+  brand:'Stellar Seating Solutions',
   unitPrice: 36999,
   images: [
     dining_images.c6_1,
@@ -729,28 +801,5 @@ const PRODUCTS = [{
     'Package(s): 6'
   ],
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ];
 export default PRODUCTS;
