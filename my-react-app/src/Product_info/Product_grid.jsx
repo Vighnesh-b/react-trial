@@ -22,7 +22,6 @@ function Product_grid({ Type }) {
                         <p>By {product.brand}</p>
                         <p>{`₹${product.unitPrice}`}</p>
                         <button onClick={() => goToProduct(product.id)}>VIEW PRODUCT</button>
-                        <button>WISHLIST</button>
                     </div>
                 ))}
             </div>
