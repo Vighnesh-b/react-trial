@@ -17,7 +17,6 @@ function Header() {
         <SearchBar/>
         <div className="icons">
         <Link to="/Login"><IoPersonOutline size="1.5em"/></Link>
-          <a href=""><FaRegHeart size="1.5em"/></a>
           <a href=""><LuShoppingCart size="1.5em"/></a>
         </div>
       </div>
