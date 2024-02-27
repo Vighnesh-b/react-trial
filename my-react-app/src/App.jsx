@@ -8,12 +8,19 @@ import {
   Routes,
 } from "react-router-dom";
 import MainHeader from './Home_page/MainHeader';
-import Login from './LoginPage/login';
-import SignUp from './LoginPage/signup';
+import Login from './LoginPage/LoginPage';
+import Register from './LoginPage/Register';
 
 import Product_page from './Product_info/Product_page';
 
 import Product_grid from './Product_info/Product_grid';
+
+import axios from 'axios';
+
+import {Toaster} from 'react-hot-toast';
+
+axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.withCredentials=true
 
 function App() {
   return (
@@ -67,9 +74,10 @@ function App() {
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
-        <Route path="/signup" element={<SignUp/>} />        
+        <Route path="/register" element={<Register/>} />        
       </Routes>
     </BrowserRouter>
+    <Toaster position='bottom-right' toastOptions={{ duration: 2000 }} />
     </ShopContextProvider>
   );
 }
