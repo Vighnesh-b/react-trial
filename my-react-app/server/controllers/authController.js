@@ -1,6 +1,6 @@
 import { UserModel as User } from '../models/user.js';
 import { hashPassword,comparePassword } from '../helpers/auth.js';
-import jwt from 'jsonwebtoken';
+
 
 const test = (req, res) => {
     res.json('test is working');
@@ -41,33 +41,33 @@ const registerUser = async (req, res) => {
 };
 
 //login
-const loginUser=async(req,res)=>{
+const loginUser = async (req, res) => {
     try {
-        const {email,password}=req.body;
+        const { email, password } = req.body;
 
-        const user=await User.findOne({email});
-        if(!user){
+        const user = await User.findOne({ email });
+        if (!user) {
             return res.json({
-                error:'No user found'
-            })
+                error: 'No user found'
+            });
         }
 
-        const match=await comparePassword(password , user.password)
-        if(match){
-            /**jwt.sign({email:user.email,id:user._id, name:user.name}, process.env.JWT_SECRET,{},(err,token)=>{
-                if(err) throw err;
-                res.cookie('token',token.json(user))
-            })**/
+        const match = await comparePassword(password, user.password);
+        if (match) {
             res.json('passwords match')
         }
-        if(!match){
-            res.json({
-                error:'Passwords do not match'
-            })
+
+        if (!match) {
+            return res.json({
+                error: 'Passwords do not match'
+            });
         }
     } catch (error) {
-        console.log(error)
+        console.log(error);
+        res.status(500).json({ error: 'Internal server error' });
     }
-}
+};
+
 
 export { test, registerUser,loginUser };
+//res.json('passwords match')
