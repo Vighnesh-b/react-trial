@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home_page/Home';
 import Error from './Error';
-
+import { ShopContextProvider } from './context/shop-context'; 
 import {
   BrowserRouter,
   Route,
@@ -17,6 +17,7 @@ import Product_grid from './Product_info/Product_grid';
 
 function App() {
   return (
+    <ShopContextProvider>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainHeader/>}>
@@ -69,6 +70,7 @@ function App() {
         <Route path="/signup" element={<SignUp/>} />        
       </Routes>
     </BrowserRouter>
+    </ShopContextProvider>
   );
 }
 
