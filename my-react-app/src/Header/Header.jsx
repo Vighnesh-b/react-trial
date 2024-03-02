@@ -5,8 +5,11 @@ import './Header.css';
 import '../styles/fonts.css';
 import { Link } from "react-router-dom";
 import SearchBar from '../SearchBar/SearchBar.jsx';
+import { UserContext } from "../Context/userContext"
+import { useContext } from "react"
 
 function Header() {
+  const {user}=useContext(UserContext);
   return (
     <>
     <header>
@@ -16,7 +19,9 @@ function Header() {
         </div>
         <SearchBar/>
         <div className="icons">
-        <Link to="/Login"><IoPersonOutline size="1.5em"/></Link>
+        <Link to={user ? "/dashboard" : "/login"}><IoPersonOutline size="1.5em" />
+        {user && <Link to="/logout">Logout</Link>}
+        </Link>
           <a href=""><LuShoppingCart size="1.5em"/></a>
         </div>
       </div>

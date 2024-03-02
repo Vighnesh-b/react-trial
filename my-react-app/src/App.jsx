@@ -21,6 +21,7 @@ import axios from 'axios';
 import {Toaster} from 'react-hot-toast';
 
 import { UserContextProvider } from './Context/userContext';
+import Dashboard from './DashBoard/Dashboard';
 
 
 axios.defaults.baseURL = 'http://localhost:8000';
@@ -80,7 +81,8 @@ function App() {
         </Route>
         <Route path="/login" element={<Login/>} />
         <Route path="/logout" element={<Logout/>} />
-        <Route path="/register" element={<Register/>} />        
+        <Route path="/register" element={<Register/>} />    
+        <Route path="/dashboard" element={<Dashboard/>} />     
       </Routes>
     </BrowserRouter>
     <Toaster position='bottom-middle' toastOptions={{ duration: 2000 }} />
