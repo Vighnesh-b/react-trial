@@ -1,7 +1,9 @@
-import React,{useReducer, useState} from 'react'
-import axios from 'axios'
-import {toast} from 'react-hot-toast'
-import { useNavigate } from 'react-router-dom'
+import React,{useReducer, useState} from 'react';
+import axios from 'axios';
+import {toast} from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
+import ReCAPTCHA from "react-google-recaptcha";
+import './LoginPage.css'; 
 
 export default function LoginPage() {
   const navigate=useNavigate();
@@ -35,6 +37,10 @@ export default function LoginPage() {
         <label>Password</label>
         <input type="password" placeholder='enter password...' value={data.password} onChange={(e)=>setData({...data,password:e.target.value})}/>
         <button type='submit'>Login</button>
+        <ReCAPTCHA
+        sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
+        onChange={onChange}
+        />,
     </form></div>
   )
 }

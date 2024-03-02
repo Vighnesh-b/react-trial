@@ -1,5 +1,6 @@
 import { UserModel as User } from '../models/user.js';
 import { hashPassword,comparePassword } from '../helpers/auth.js';
+import jwt from 'jsonwebtoken';
 
 
 const test = (req, res) => {
@@ -54,7 +55,15 @@ const loginUser = async (req, res) => {
 
         const match = await comparePassword(password, user.password);
         if (match) {
-            res.json('passwords match')
+            const token = jwt.sign(
+                { email: user.email, id: user._id, name: user.name },
+                process.env.JWT_SECRET, {}, (err, token) => {
+                    if(err) throw err;
+                    res.cookie;
+                    res.cookie('token', token).json(user)
+
+                }
+            );
         }
 
         if (!match) {
