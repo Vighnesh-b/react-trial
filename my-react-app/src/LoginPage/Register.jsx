@@ -3,6 +3,7 @@ import axios from 'axios'
 import {toast} from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css'; 
+import ReCAPTCHA from "react-google-recaptcha";
 export default function Register() {
   const navigate=useNavigate();
   const [data,setData]=useState({
@@ -31,6 +32,7 @@ export default function Register() {
     }
     
   }
+  const onChange = () => {};
 
   return (
     <>
@@ -41,6 +43,10 @@ export default function Register() {
         <input type="email" placeholder='enter email...' value={data.email} onChange={(e)=>setData({...data,email:e.target.value})}/>
         <label>Password</label>
         <input type="password" placeholder='enter password...' value={data.password} onChange={(e)=>setData({...data,password:e.target.value})}/>
+        <ReCAPTCHA
+        sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
+        onChange={onChange}
+        />
         <button type='submit'>Submit</button>
       </form>
     </>

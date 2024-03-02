@@ -20,12 +20,15 @@ import axios from 'axios';
 
 import {Toaster} from 'react-hot-toast';
 
+import { UserContextProvider } from './Context/userContext';
+
 
 axios.defaults.baseURL = 'http://localhost:8000';
 axios.defaults.withCredentials=true
 
 function App() {
   return (
+    <UserContextProvider>
     <ShopContextProvider>
     <BrowserRouter>
       <Routes>
@@ -80,8 +83,9 @@ function App() {
         <Route path="/register" element={<Register/>} />        
       </Routes>
     </BrowserRouter>
-    <Toaster position='bottom-right' toastOptions={{ duration: 2000 }} />
+    <Toaster position='bottom-middle' toastOptions={{ duration: 2000 }} />
     </ShopContextProvider>
+    </UserContextProvider>
   );
 }
 

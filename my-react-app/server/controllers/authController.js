@@ -57,16 +57,13 @@ const loginUser = async (req, res) => {
         if (match) {
             const token = jwt.sign(
                 { email: user.email, id: user._id, name: user.name },
-                process.env.JWT_SECRET, {}, (err, token) => {
-                    if(err) throw err;
-                    res.cookie;
-                    res.cookie('token', token).json(user)
-
-                }
+                process.env.JWT_SECRET
             );
-        }
-
-        if (!match) {
+            res.cookie('token', token, {
+                httpOnly: true,
+                secure: process.env.NODE_ENV === 'production',
+            }).json(user);
+        } else {
             return res.json({
                 error: 'Passwords do not match'
             });
@@ -77,6 +74,20 @@ const loginUser = async (req, res) => {
     }
 };
 
+const getProfile = (req, res) => {
+    const token = req.cookies.token; 
+    if (token) {
+        jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
+            if (err) {
+                return res.json(null);
+            }
+            res.json(user);
+        });
+    } else {
+        res.json(null);
+    }
+};
 
-export { test, registerUser,loginUser };
+
+export { test, registerUser,loginUser,getProfile};
 //res.json('passwords match')
