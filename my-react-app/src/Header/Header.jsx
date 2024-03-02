@@ -10,6 +10,7 @@ import { useContext } from "react"
 
 function Header() {
   const {user}=useContext(UserContext);
+  console.log(user);
   return (
     <>
     <header>
@@ -20,8 +21,8 @@ function Header() {
         <SearchBar/>
         <div className="icons">
         <Link to={user ? "/dashboard" : "/login"}><IoPersonOutline size="1.5em" />
-        {user && <Link to="/logout">Logout</Link>}
         </Link>
+        {user && <Link to="/logout">Logout</Link>}
           <a href=""><LuShoppingCart size="1.5em"/></a>
         </div>
       </div>
