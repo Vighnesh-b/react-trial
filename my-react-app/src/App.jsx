@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import MainHeader from './Home_page/MainHeader';
 import Login from './LoginPage/LoginPage';
+import { Logout } from './LoginPage/logout';
 import Register from './LoginPage/Register';
 
 import Product_page from './Product_info/Product_page';
@@ -18,6 +19,7 @@ import Product_grid from './Product_info/Product_grid';
 import axios from 'axios';
 
 import {Toaster} from 'react-hot-toast';
+
 
 axios.defaults.baseURL = 'http://localhost:8000';
 axios.defaults.withCredentials=true
@@ -74,6 +76,7 @@ function App() {
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
+        <Route path="/logout" element={<Logout/>} />
         <Route path="/register" element={<Register/>} />        
       </Routes>
     </BrowserRouter>
