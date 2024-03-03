@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import MainHeader from './Home_page/MainHeader';
 import Login from './LoginPage/LoginPage';
-import { Logout } from './LoginPage/logout';
 import Register from './LoginPage/Register';
 
 import Product_page from './Product_info/Product_page';
@@ -80,7 +79,6 @@ function App() {
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
-        <Route path="/logout" element={<Logout/>} />
         <Route path="/register" element={<Register/>} />    
         <Route path="/dashboard" element={<Dashboard/>} />     
       </Routes>
