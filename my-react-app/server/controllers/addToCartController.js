@@ -5,16 +5,15 @@ const addToCart = async (req, res) => {
     const { userid, product, quantity } = req.body;
 
     let existingCart = await Cart.findOne({ userid });
-    console.log(existingCart);
 
     if (existingCart) {
       const existingProductIndex = existingCart.items.findIndex(
         (item) => item.product.toString() === product.toString()
       );
-      console.log(existingProductIndex);
 
       if (existingProductIndex !== -1) {
         existingCart.items[existingProductIndex].quantity += quantity;
+
       } else {
         existingCart.items.push({ product, quantity });
       }

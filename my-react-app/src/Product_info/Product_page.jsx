@@ -4,6 +4,7 @@ import PRODUCTS from './product_info';
 import { UserContext } from "../Context/userContext"
 import { useContext } from "react"
 import axios from 'axios';
+import { toast } from 'react-hot-toast';
 
 function Product_page({ Id }) { 
   const selectedProduct = PRODUCTS.find(product => product.id === Id);
@@ -30,7 +31,7 @@ function Product_page({ Id }) {
         product: Id,
         quantity: quantity,
       });
-  
+      toast.success(`${name} has been added to cart`);
       console.log('Product added to cart:', response.data);
     } catch (error) {
       console.error('Error adding to cart:', error);
