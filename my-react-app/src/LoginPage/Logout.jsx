@@ -11,12 +11,9 @@ const Logout = () => {
   const handleLogout = async () => {
     try {
       await axios.post('/logout');
-
-      // Clear user context or perform any additional cleanup
       setUser(null);
-
       toast.success('Logout successful');
-      navigate('/login'); // Redirect to login page or any other desired route after logout
+      navigate('/login'); 
     } catch (error) {
       console.error('Logout failed:', error);
       toast.error('Logout failed. Please try again.');

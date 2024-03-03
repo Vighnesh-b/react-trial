@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import './Product_page.css';
 import PRODUCTS from './product_info';
+import { UserContext } from "../Context/userContext"
+import { useContext } from "react"
+import axios from 'axios';
 
 function Product_page({ Id }) { 
   const selectedProduct = PRODUCTS.find(product => product.id === Id);
-
+  const {user}=useContext(UserContext);
   if (!selectedProduct) {
     return <div>Product not found</div>;
   }
@@ -19,6 +22,20 @@ function Product_page({ Id }) {
   }
 
   const totalPrice = (quantity * unitPrice).toFixed(2);
+
+  const addToCart = async () => {
+    try {
+      const response = await axios.post('/addToCart', {
+        userid: user.id,
+        product: Id,
+        quantity: quantity,
+      });
+  
+      console.log('Product added to cart:', response.data);
+    } catch (error) {
+      console.error('Error adding to cart:', error);
+    }
+  };
 
   return (
     <>
@@ -58,7 +75,7 @@ function Product_page({ Id }) {
             </select>
           </div>
           <p className="total-price">Total Price: ₹{totalPrice}</p>
-          <button className="add-to-cart">Add to Cart</button>
+          <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
         </div>
       </div>
       <div className="description">
