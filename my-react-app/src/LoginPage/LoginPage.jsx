@@ -34,6 +34,7 @@ export default function LoginPage() {
         });
         axios.get('/profile').then(({data}) => (setUser(data)))
         navigate('/');
+        toast.success('Login successful');
       }
     } catch (error) {
       console.error('Login failed:', error);
