@@ -4,10 +4,12 @@ import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import ReCAPTCHA from "react-google-recaptcha";
 import './LoginPage.css'; 
+import { UserContext } from "../Context/userContext"
+import { useContext } from "react"
 
 export default function LoginPage() {
   const navigate = useNavigate();
-
+  const {user,setUser}=useContext(UserContext);
   const [data, setData] = useState({
     email: '',
     password: '',
@@ -30,6 +32,7 @@ export default function LoginPage() {
           ...data,
           password: '', 
         });
+        axios.get('/profile').then(({data}) => (setUser(data)))
         navigate('/');
       }
     } catch (error) {

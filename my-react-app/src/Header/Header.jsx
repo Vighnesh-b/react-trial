@@ -4,6 +4,7 @@ import { LuShoppingCart } from "react-icons/lu";
 import './Header.css';
 import '../styles/fonts.css';
 import { Link } from "react-router-dom";
+import Logout from '../LoginPage/Logout.jsx'
 import SearchBar from '../SearchBar/SearchBar.jsx';
 import { UserContext } from "../Context/userContext"
 import { useContext } from "react"
@@ -22,7 +23,7 @@ function Header() {
         <div className="icons">
         <Link to={user ? "/dashboard" : "/login"}><IoPersonOutline size="1.5em" />
         </Link>
-        {user && <Link to="/logout">Logout</Link>}
+        {user && <Logout />}
           <a href=""><LuShoppingCart size="1.5em"/></a>
         </div>
       </div>

@@ -88,6 +88,21 @@ const getProfile = (req, res) => {
     }
 };
 
+const logoutUser = (req, res) => {
+    try {
+        const token = req.cookies.token;
 
-export { test, registerUser,loginUser,getProfile};
+        if (token) {
+            res.clearCookie('token');
+            res.json({ message: 'User logged out successfully' });
+        } else {
+            res.json({ message: 'No user logged in' });
+        }
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+};
+
+export { test, registerUser,loginUser,getProfile,logoutUser};
 //res.json('passwords match')
