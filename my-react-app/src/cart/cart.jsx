@@ -3,6 +3,7 @@ import { UserContext } from "../Context/userContext";
 import { useContext, useState } from "react";
 import PRODUCTS from "../Product_info/product_info";
 import './cart.css';
+import '../styles/fonts.css';
 
 function Cart() {
     const { user } = useContext(UserContext);

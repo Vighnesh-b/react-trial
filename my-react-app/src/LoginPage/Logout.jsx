@@ -3,6 +3,7 @@ import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import { UserContext } from "../Context/userContext";
+import './Logout.css'
 
 const Logout = () => {
   const navigate = useNavigate();
@@ -21,7 +22,10 @@ const Logout = () => {
   };
 
   return (
-    <button onClick={handleLogout}>Logout</button>
+    <div className="logout-button">
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+    
   );
 };
 

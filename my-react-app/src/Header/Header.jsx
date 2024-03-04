@@ -21,11 +21,25 @@ function Header() {
         </div>
         <SearchBar/>
         <div className="icons">
-        <Link to={user ? "/dashboard" : "/login"}><IoPersonOutline size="1.5em" />
-        </Link>
-        {user && <Logout />}
-          <Link to='/cart'><LuShoppingCart size="1.5em"/></Link>
-        </div>
+      {user ? (
+        <>
+          <Logout />
+          <Link to="/cart">
+            <LuShoppingCart size="1.5em" />
+          </Link>
+        </>
+      ) : (
+        <>
+          <Link to="/login">
+            <span>Login</span>
+          </Link>
+          <span> | </span>
+          <Link to="/register">
+            <span>Register</span>
+          </Link>
+        </>
+      )}
+    </div>
       </div>
     </header>
     <nav>
