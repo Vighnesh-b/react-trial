@@ -24,7 +24,7 @@ function Header() {
         <Link to={user ? "/dashboard" : "/login"}><IoPersonOutline size="1.5em" />
         </Link>
         {user && <Logout />}
-          <a href=""><LuShoppingCart size="1.5em"/></a>
+          <Link to='/cart'><LuShoppingCart size="1.5em"/></Link>
         </div>
       </div>
     </header>
