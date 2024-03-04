@@ -1,7 +1,6 @@
 import React from 'react';
 import Home from './Home_page/Home';
 import Error from './Error';
-import { ShopContextProvider } from './context/shop-context'; 
 import {
   BrowserRouter,
   Route,
@@ -21,6 +20,7 @@ import {Toaster} from 'react-hot-toast';
 
 import { UserContextProvider } from './Context/userContext';
 import Dashboard from './DashBoard/Dashboard';
+import Cart from './cart/cart';
 
 
 axios.defaults.baseURL = 'http://localhost:8000';
@@ -29,7 +29,6 @@ axios.defaults.withCredentials=true
 function App() {
   return (
     <UserContextProvider>
-    <ShopContextProvider>
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainHeader/>}>
@@ -76,6 +75,7 @@ function App() {
           <Route path='/Dinings/Dining34' element={<Product_page Id={34} />}/>
           <Route path='/Dinings/Dining35' element={<Product_page Id={35} />}/>
           <Route path='/Dinings/Dining36' element={<Product_page Id={36} />}/>
+          <Route path='/cart' element={<Cart/>}/>
           <Route path="*" element={<Error/>} />
         </Route>
         <Route path="/login" element={<Login/>} />
@@ -84,7 +84,6 @@ function App() {
       </Routes>
     </BrowserRouter>
     <Toaster position='bottom-middle' toastOptions={{ duration: 2000 }} />
-    </ShopContextProvider>
     </UserContextProvider>
   );
 }

@@ -34,5 +34,20 @@ const addToCart = async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 };
+const getcart = async (req, res) => {
+  try {
+    const { userid } = req.query;
+    const userCart = await Cart.findOne({ userid });
 
-export { addToCart };
+    if (userCart) {
+      res.status(200).json(userCart);
+    } else {
+      res.status(404).json({ message: "Cart not found" });
+    }
+  } catch (error) {
+    console.error("Error getting cart:", error);
+    res.status(500).send("Internal Server Error");
+  }
+};
+
+export { addToCart,getcart };

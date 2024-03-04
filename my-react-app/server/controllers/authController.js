@@ -105,4 +105,3 @@ const logoutUser = (req, res) => {
 };
 
 export { test, registerUser,loginUser,getProfile,logoutUser};
-//res.json('passwords match')

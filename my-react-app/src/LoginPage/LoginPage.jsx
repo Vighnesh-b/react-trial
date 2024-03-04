@@ -6,6 +6,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import './LoginPage.css'; 
 import { UserContext } from "../Context/userContext"
 import { useContext } from "react"
+import './LoginPage.css'
 
 export default function LoginPage() {
   const navigate = useNavigate();
@@ -49,6 +50,7 @@ export default function LoginPage() {
       <form onSubmit={loginUser}>
         <label>Email</label>
         <input
+        className='email'
           type="email"
           placeholder="Enter email..."
           value={data.email}
