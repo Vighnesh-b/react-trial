@@ -78,7 +78,7 @@ function Cart() {
                             <img className="cart-image" src={PRODUCTS.find((p) => p.id === parseInt(item.product, 10))?.images[0]} alt="img" />
                             <div className="cart-item-info">
                                 <p>{PRODUCTS.find((p) => p.id === parseInt(item.product, 10))?.name}</p>
-                                <p>{PRODUCTS.find((p) => p.id === parseInt(item.product, 10))?.brand}</p>
+                                <p>By {PRODUCTS.find((p) => p.id === parseInt(item.product, 10))?.brand}</p>
                                 <p>Quantity: {item.quantity}</p>
                             </div>
                             <div className="cart-item-buttons">

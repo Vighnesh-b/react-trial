@@ -3,10 +3,10 @@ import axios from 'axios';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 import ReCAPTCHA from "react-google-recaptcha";
-import './LoginPage.css'; 
 import { UserContext } from "../Context/userContext"
 import { useContext } from "react"
 import './LoginPage.css'
+import { Link } from 'react-router-dom';
 
 export default function LoginPage() {
   const navigate = useNavigate();
@@ -46,7 +46,8 @@ export default function LoginPage() {
   const onChange = () => {};
 
   return (
-    <div>
+    <div className='logincontainer'>
+      <div>
       <form onSubmit={loginUser}>
         <label>Email</label>
         <input
@@ -58,17 +59,20 @@ export default function LoginPage() {
         />
         <label>Password</label>
         <input
+          className='password'
           type="password"
           placeholder="Enter password..."
           value={data.password}
           onChange={(e) => setData({ ...data, password: e.target.value })}
         />
+        <Link to='/register'>not a member? Register</Link>
         <ReCAPTCHA
           sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
           onChange={onChange}
         />
-        <button type="submit">Login</button>
+        <button className='button' type="submit">Login</button>
       </form>
+    </div>
     </div>
   );
 }

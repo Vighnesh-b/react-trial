@@ -20,17 +20,13 @@
     margin-top: 20px;
   }
 
-
-
 /* Container */
-.logincontainer {
+.registercontainer {
     display: flex;
     justify-content: center; 
     align-items: center; 
     height: 100vh;
-    background-image: url('./loginBackground.jpeg'); 
+    background-image: url('./signupBackground.jpeg'); 
     background-size: cover; 
     background-position: center; 
 }
-
-
