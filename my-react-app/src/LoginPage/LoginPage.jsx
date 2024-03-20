@@ -65,7 +65,7 @@ export default function LoginPage() {
           value={data.password}
           onChange={(e) => setData({ ...data, password: e.target.value })}
         />
-        <Link to='/register'>not a member? Register</Link>
+        <Link to='/register'>Not a member? Register</Link>
         <ReCAPTCHA
           sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
           onChange={onChange}
