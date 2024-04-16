@@ -70,7 +70,7 @@ export default function LoginPage() {
           sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
           onChange={onChange}
         />
-        <button className='button' type="submit">Login</button>
+        <button className='loginbutton' type="submit">Login</button>
       </form>
     </div>
     </div>

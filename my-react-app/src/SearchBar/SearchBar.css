@@ -2,6 +2,7 @@
     position: relative;
     width: 300px;
     margin: 20px;
+    
   }
   
   input {
@@ -11,6 +12,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
+    font-family: 'Poppins', sans-serif;
   }
   
   .dropdown {
@@ -26,6 +28,7 @@
     border-top: none;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
   }
   
   .dropdown-item {

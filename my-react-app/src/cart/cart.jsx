@@ -68,8 +68,8 @@ function Cart() {
     return (
         <>
         <br />
-            <button onClick={getCartData}>Update</button>
-
+            <button className='cartbutton' onClick={getCartData}>Update</button>
+            {!cartData?<h1>Cart is Empty</h1>:<br></br>}
             {cartData && (
                 <div className="cart-container">
                     <h2>Cart Information</h2>
@@ -82,8 +82,8 @@ function Cart() {
                                 <p>Quantity: {item.quantity}</p>
                             </div>
                             <div className="cart-item-buttons">
-                                <button onClick={() => handleAdd1ToCart(item.product)}>Add 1</button>
-                                <button onClick={() => handleDelete1FromCart(item.product)}>Delete 1</button>
+                                <button className="cartbutton" onClick={() => handleAdd1ToCart(item.product)}>Add 1</button>
+                                <button className="cartbutton" onClick={() => handleDelete1FromCart(item.product)}>Delete 1</button>
                             </div>
                             <hr />
                         </div>

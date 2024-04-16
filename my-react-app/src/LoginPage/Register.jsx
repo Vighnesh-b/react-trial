@@ -49,7 +49,7 @@ export default function Register() {
         sitekey="6LeJa3gpAAAAAGNkIb1M0zIsKP81-0JCAxhf3MpF"
         onChange={onChange}
         />
-        <button type='submit'>Submit</button>
+        <button className='loginbutton' type='submit'>Submit</button>
       </form>
       </div>
     </>

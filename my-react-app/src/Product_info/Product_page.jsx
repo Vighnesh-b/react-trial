@@ -5,8 +5,10 @@ import { UserContext } from "../Context/userContext"
 import { useContext } from "react"
 import axios from 'axios';
 import { toast } from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 
 function Product_page({ Id }) { 
+  const navigate = useNavigate();
   const selectedProduct = PRODUCTS.find(product => product.id === Id);
   const {user}=useContext(UserContext);
   if (!selectedProduct) {
@@ -25,6 +27,7 @@ function Product_page({ Id }) {
   const totalPrice = (quantity * unitPrice).toFixed(2);
 
   const addToCart = async () => {
+    
     try {
       const response = await axios.post('/addToCart', {
         userid: user.id,
@@ -76,7 +79,7 @@ function Product_page({ Id }) {
             </select>
           </div>
           <p className="total-price">Total Price: ₹{totalPrice}</p>
-          <button className="add-to-cart" onClick={addToCart}>Add to Cart</button>
+          <button className="add-to-cart" onClick={!user?()=>navigate('/login'):addToCart}>Add to Cart</button>
         </div>
       </div>
       <div className="description">
